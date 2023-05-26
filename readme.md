@@ -15,7 +15,7 @@
    <ul>
    <li>
     <p>Ingresar a la pestaña siguiente</p>
-<img  src="./public/img/historia/btn-ingreso"/>
+<img  src="./public/img/historia/btn-ingreso.png"/>
    </li>
  
    </ul>

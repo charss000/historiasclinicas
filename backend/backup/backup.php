@@ -1,6 +1,6 @@
 <?php
 // include("../seguridad.php");
-EXPORT_TABLES("localhost","root","","bd_clinica2");
+EXPORT_TABLES("localhost","cstintaypuncocom_root","6eoM-QX03A,x","cstintaypuncocom_db");
 // include_once("../../conexion/clsConexion.php");
 // https://github.com/tazotodua/useful-php-scripts
                 //optional: 5th parameter - backup specific tables only: array("mytable1","mytable2",...)

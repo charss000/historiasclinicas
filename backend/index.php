@@ -69,10 +69,8 @@ filter: alpha(opacity=80);
       </div>
     </form>
     <div align="center">
-    <?php 
-    $clave ='21232f297a57a5a743894a0e4a801fc3';
-    echo $clavemd5 = md5($clave);
-    ?>
+    
+   
        <!-- <a href="../index.php">WEB INICIO</a> -->
       <br/>
       <span>2021-2030</span>  - <span>All rights reserved.</span>

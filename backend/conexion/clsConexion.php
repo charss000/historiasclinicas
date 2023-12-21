@@ -4,9 +4,11 @@ class clsConexion{
 	try{
     //modificar los datos de la conexion
 		$host="localhost";
-		$db_name="bd_clinica2";
+		$db_name="cstintaypuncocom_db";
 		$user="root";
 		$pass="";
+		//$user="cstintaypuncocom_root";
+		//$pass="6eoM-QX03A,x";
 		$this->con=mysqli_connect($host,$user,$pass) or die ("error en la conexion a la bd");
 	       mysqli_select_db($this->con,$db_name) or die("no se encontro la bd");
     $this->con->set_charset("utf8");

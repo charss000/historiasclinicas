@@ -32,7 +32,7 @@ $data=$obj->consultar("SELECT * FROM configuracion WHERE idconfi='1'");
         <form role="form"  action="capturar.php" method="post" enctype="multipart/form-data">
          <div class="row">
            <div class="col-md-6">
-						 <div class="form-group">
+						 <div class="mb-3">
 						<label>Razon Social:</label>
 						<div class="input-group">
 							<div class="input-group-addon">
@@ -43,7 +43,7 @@ $data=$obj->consultar("SELECT * FROM configuracion WHERE idconfi='1'");
 					 </div>
 
 
-							<div class="form-group">
+							<div class="mb-3">
 								<label>Simbolo Monetario:</label>
 								<div class="input-group">
 									<div class="input-group-addon">
@@ -53,7 +53,7 @@ $data=$obj->consultar("SELECT * FROM configuracion WHERE idconfi='1'");
 								</div>
 								</div>
 
-							<div class="form-group">
+							<div class="mb-3">
 								 <label>Telefono:</label>
 								 <div class="input-group">
 									 <div class="input-group-addon">
@@ -63,7 +63,7 @@ $data=$obj->consultar("SELECT * FROM configuracion WHERE idconfi='1'");
 								 </div>
 								 </div>
 
-								 <div class="form-group">
+								 <div class="mb-3">
 										<label>Responsable:</label>
 										<div class="input-group">
 											<div class="input-group-addon">
@@ -73,7 +73,7 @@ $data=$obj->consultar("SELECT * FROM configuracion WHERE idconfi='1'");
 										</div>
 										</div>
 
-								 <div class="form-group">
+								 <div class="mb-3">
 			            <label>Logo:</label>
 			            <div class="input-group">
 			              <div class="input-group-addon">
@@ -84,7 +84,7 @@ $data=$obj->consultar("SELECT * FROM configuracion WHERE idconfi='1'");
 			            </div>
 			            <p class="help-block">Archivos Permitidos(.jpg y.png)</p>
 			          </div>
-								<div class="form-group">
+								<div class="mb-3">
 										 <img src="foto/<?php echo $logo?>" width="160px" height="140px" border="1">
 										 <input type="hidden" name="img_eliminar_1" value="<?php echo $logo ?>">
 								</div>
@@ -92,7 +92,7 @@ $data=$obj->consultar("SELECT * FROM configuracion WHERE idconfi='1'");
            </div>
                <div class="col-md-6">
 
-		 											 <div class="form-group">
+		 											 <div class="mb-3">
 		 													<label>Ruc:</label>
 		 													<div class="input-group">
 		 														<div class="input-group-addon">
@@ -101,7 +101,7 @@ $data=$obj->consultar("SELECT * FROM configuracion WHERE idconfi='1'");
 		 														<input type="text" class="form-control" name="ruc" required autocomplete="off"placeholder="ingrese el ruc" maxlength="11" value="<?php echo "$ruc"; ?>">
 		 													</div>
 		 													</div>
-								 <div class="form-group">
+								 <div class="mb-3">
 									<label>Moneda:</label>
 									<div class="input-group">
 										<div class="input-group-addon">
@@ -120,7 +120,7 @@ $data=$obj->consultar("SELECT * FROM configuracion WHERE idconfi='1'");
 									</div>
 									</div>
 
-								 <div class="form-group">
+								 <div class="mb-3">
 									 <label>Impuesto:</label>
 									 <div class="input-group">
 										 <div class="input-group-addon">
@@ -130,7 +130,7 @@ $data=$obj->consultar("SELECT * FROM configuracion WHERE idconfi='1'");
 									 </div>
 									 </div>
 
-									 <div class="form-group">
+									 <div class="mb-3">
 										 <label>Sigla del Impuesto:</label>
 										 <div class="input-group">
 											 <div class="input-group-addon">
@@ -140,7 +140,7 @@ $data=$obj->consultar("SELECT * FROM configuracion WHERE idconfi='1'");
 										 </div>
 										 </div>
 
-										 <div class="form-group">
+										 <div class="mb-3">
 											 <label>Direccion:</label>
 											 <div class="input-group">
 												 <div class="input-group-addon">
@@ -150,7 +150,7 @@ $data=$obj->consultar("SELECT * FROM configuracion WHERE idconfi='1'");
 											 </div>
 											 </div>
 
-								 <div class="form-group">
+								 <div class="mb-3">
 								 <label>Zona Horaria:</label>
 								 <div class="input-group">
 									<div class="input-group-addon">

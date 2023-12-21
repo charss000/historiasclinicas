@@ -14,6 +14,7 @@ $usu=$_SESSION["usuario"];
 include_once("../conexion/clsConexion.php");
 $obj= new clsConexion();
 $funcion=$_POST["funcion"];
+
 if($funcion=="modificar"){
 $cod=trim($obj->real_escape_string(strip_tags($_POST['cod'],ENT_QUOTES)));
 }
@@ -67,8 +68,8 @@ if($funcion=="registrar"){
                             			$hour=$row["hora"];
                             	}
                      if (strtotime($hour)!=strtotime($hora)) {
-                      $sql="INSERT INTO `cita`(`idpaciente`, `idusuario`, `fecha`,`hora`, `cupo`, `fec_ho_impresion`, `estado`, `idventa`)
-                      VALUES ('$idpaciente','$idmedico','$fecha','$hora','','$hoy','enespera','$idventa')";
+                      $sql="INSERT INTO `cita`(`idpaciente`, `idusuario`, `fecha`,`hora`, `fec_ho_impresion`, `estado`, `idventa`)
+                      VALUES ('$idpaciente','$idmedico','$fecha','$hora','$hoy','enespera','$idventa')";
                      //insertar venta
                       $insert_v="INSERT INTO `venta`(`idventa`, `idpaciente_v`, `fecha`, `subtotal`, `igv`, `total`, `tipo_docu`, `num_docu`, `serie`,`observacion`,`usuario`,`estado`)
                                             VALUES ('$idventa','$idpaciente','$fecha','$precio','0','$precio','RECIBO','$num_docu','001','','$usu','pendiente')";
@@ -76,9 +77,13 @@ if($funcion=="registrar"){
                       //insertar detalleventa
                       $insert_dv="INSERT INTO `detalleventa`(`idventa`, `idservicio_v`, `cantidad`, `precio`, `importe`) VALUES ('$idventa','$idservicio','1','$precio','$precio')";
                       //fin insertar detalleventa
+
                         $res=$obj->ejecutar($sql);
+                        print_r($res);
                       	$obj->ejecutar($insert_v);
                         $obj->ejecutar($insert_dv);
+
+
       if ($res) {
           echo"<script>
             bootbox.alert('Registro Exitoso', function(){

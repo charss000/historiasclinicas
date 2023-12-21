@@ -163,7 +163,9 @@ FROM laboratorio
 </html>
 
 <?php
-require_once("dompdf-0.8.3/autoload.inc.php");
+//require_once("dompdf-0.8.3/autoload.inc.php");
+require_once("../../vendor/autoload.php");
+
 use Dompdf\Dompdf;
 $dompdf = new DOMPDF();
 $dompdf->load_html(ob_get_clean());

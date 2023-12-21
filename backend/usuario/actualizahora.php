@@ -7,6 +7,7 @@
 </head>
 <body>
 <?php
+
 include_once("../conexion/clsConexion.php");
 $obj= new clsConexion();
 $funcion=$_POST["funcion"];
@@ -56,13 +57,28 @@ $d7=$obj->real_escape_string($_POST['duracion7']);
   $sql6="UPDATE `dia_usuario` SET `estado`='$estado6',`hora_inicio`='$hi6',`hora_fin`='$hf6',`duracion`='$d6' WHERE `idu`='$idu' AND `idd`='6'";
   $sql7="UPDATE `dia_usuario` SET `estado`='$estado7',`hora_inicio`='$hi7',`hora_fin`='$hf7',`duracion`='$d7' WHERE `idu`='$idu' AND `idd`='7'";
 
+if ($_POST['hora_inicio1']) {
   $obj->ejecutar($sql1);
+}
+if ($_POST['hora_inicio2']) {
   $obj->ejecutar($sql2);
+}
+if ($_POST['hora_inicio3']) {
   $obj->ejecutar($sql3);
+}
+if ($_POST['hora_inicio4']) {
   $obj->ejecutar($sql4);
+}
+if ($_POST['hora_inicio5']) {
   $obj->ejecutar($sql5);
+}
+if ($_POST['hora_inicio6']) {
   $obj->ejecutar($sql6);
+}
+if ($_POST['hora_inicio7']) {
   $obj->ejecutar($sql7);
+}
+    
 
       echo"<script>
         bootbox.alert('operacion exitosa', function(){

@@ -29,7 +29,7 @@ $data=$obj->consultar("SELECT clave From usuario WHERE idusu='$cod'");
     $clavee=$row['clave'];
 }
 if ($clavee!=$cla) {
-  $clavemd5 = md5($cla);
+  $clavemd5 = password_hash($cla, PASSWORD_DEFAULT, [15]); //md5($cla);
     $sql="UPDATE `usuario` SET `idespecialidad`='$idesp',`nombres`='$no',`sexo`='$sexo',`fecha_nacimiento`='$fec',`documento`='$documento',
     `direccion`='$dir',`email`='$em',`telefono`='$te',`tipo`='$t',`usuario`='$usuario',`clave`='$clavemd5',`estado`='$es' WHERE idusu=$cod";
 
@@ -87,7 +87,7 @@ if($funcion=="registrar"){
   else {
     $idesp=$idespecialidad;
   }
-  $clavemd5=md5($cla);
+  $clavemd5=password_hash($cla, PASSWORD_DEFAULT, [15]); //md5($cla);
     $sql="INSERT INTO `usuario`(`idespecialidad`, `nombres`, `sexo`, `fecha_nacimiento`, `documento`, `direccion`, `email`, `telefono`, `tipo`, `usuario`, `clave`, `estado`)
                         VALUES ('$idesp','$no','$sexo','$fec','$documento','$dir','$em','$te','$t','$usuario','$clavemd5','$es')";
 

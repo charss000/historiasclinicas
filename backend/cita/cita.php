@@ -176,6 +176,7 @@ ON usuario.idespecialidad = especialidad.idespecial WHERE idusu='".$obj->real_es
         <!-- Main content -->
           </section>
   </div>
+  
 <?php include("../central/footer.php"); ?>
 <script>
 $(document).on('click', '.eliminar', function(){

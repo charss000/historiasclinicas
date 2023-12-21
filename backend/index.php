@@ -48,9 +48,11 @@ filter: alpha(opacity=80);
 </head>
 <body class='transparente'>
 <div class="login-box" >
-  <!-- /.login-logo -->
-  <div class="login-box-body" id="colorpanel">
-    <div class="login-logo">
+
+
+  <!-- /.login-logo --> 
+  <div class="login-box-body" id="colorpanel"> 
+    <div class="login-logo"> 
       <legend><h3>SISCLINICA</h3></legend>
       <!-- <img src="configuracion/foto/<?php echo $logo?>" width="250" height="100" /> -->
     </div>
@@ -69,15 +71,13 @@ filter: alpha(opacity=80);
       </div>
     </form>
     <div align="center">
-    <?php 
-    $clave ='21232f297a57a5a743894a0e4a801fc3';
-    echo $clavemd5 = md5($clave);
-    ?>
+    
+   
        <!-- <a href="../index.php">WEB INICIO</a> -->
       <br/>
       <span>2021-2030</span>  - <span>All rights reserved.</span>
           <br/>
-        <a href=""  target="_blank">clinica universal</a>
+        <a href=""  target="_blank">Centro de Salud Tintay Punco</a>
     </div>
   </div>
   <!-- /.login-box-body -->
@@ -90,21 +90,25 @@ filter: alpha(opacity=80);
 </body>
 </html>
 <?php
+
     if(!empty($_POST['usuario']) and !empty($_POST['clave'])){
     $usuario= trim($obj->real_escape_string(htmlentities(strip_tags($_POST['usuario'],ENT_QUOTES))));
     $clave= trim($obj->real_escape_string(htmlentities(strip_tags($_POST['clave'],ENT_QUOTES))));
-    $clavemd5 = md5($clave);
-    $resultapo=$obj->consultar("SELECT tipo,usuario,clave,estado from usuario where usuario='".$obj->real_escape_string($usuario)."' and clave='".$obj->real_escape_string($clavemd5)."'");
+    $clavemd5 = $clave;
+    $resultapo=$obj->consultar("SELECT tipo,usuario,clave,estado from usuario where usuario='".$obj->real_escape_string($usuario)."'");
+    
     foreach((array)$resultapo as $row){
       $valor=$row['usuario'];
       $estado=$row["estado"];
       $tipo=$row["tipo"];
+      $clavedb=$row['clave'];
       // $sucu=$row["idsucursal"];
     }
     //si el usuario no existe en la bd manda el mensaje de error es como decir $row['usuario']=nulo
-  if(isset($valor)==''){
+
+  if(isset($valor)=='' || !password_verify($clavemd5,$clavedb) ){
     echo"<script>
-      bootbox.alert('Usuario y/o clave Incorrecta', function(){
+      bootbox.alert('Usuario y/o clave Incorrecta ".password_verify($clavemd5,$clavedb)."', function(){
       self.location='index.php';
     });
   </script>";

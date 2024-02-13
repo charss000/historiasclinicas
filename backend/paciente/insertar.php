@@ -123,7 +123,7 @@ $resultc=$obj->consultar("SELECT * FROM configuracion");
                         </div>
                         <label>Afiliado Al SIS:</label>
                        </div>
-                       <a href="http://app.sis.gob.pe/SisConsultaEnLinea/Consulta/frmConsultaEnLinea.aspx" target="_new">Verificar si está Afiliado</a>
+                       <a href="http://app.sis.gob.pe/SisConsultaEnLinea/Consulta/frmConsultaEnLinea.aspx" target="_new" class="btn btn-primary btn-flat">Verificar si está Afiliado</a>
                     </div>
 
                 </div>

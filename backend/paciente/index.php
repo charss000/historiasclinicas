@@ -13,8 +13,16 @@ $result=$obj->consultar("SELECT idpaciente,paciente,sexo,documento_pa,fec_nacimi
               </div>
            </div>
            <div class="box-header">
-              	  <a href="insertar.php" class="btn btn-success btn-flat"><i class="fa fa-wheelchair"></i> Registrar Nuevo Paciente </a>
+              	  <a href="insertar.php" class="btn btn-success btn-flat">
+                    <i class="fa fa-wheelchair"></i>
+                     Registrar Nuevo Paciente 
+                  </a>
+                  <a href="http://app.sis.gob.pe/SisConsultaEnLinea/Consulta/frmConsultaEnLinea.aspx" class="btn btn-success btn-flat" target='black'>
+                  <i class="fa fa-user"></i>
+                     Consultar SIS
+                  </a>
            </div>
+          
 			<div class="box-body">
             <table id="example1" class="table table-striped table-bordered table-hover">
                 <thead>

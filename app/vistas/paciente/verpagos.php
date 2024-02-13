@@ -1,6 +1,6 @@
 <?php
 
-$this->layout('../plantilla/index',['titulo'=>'SISCLINICA - Ver Pagos'])
+$this->layout('../plantilla/index',['titulo'=>'CS TINTAY PUNCO - Ver Pagos'])
 ?>
 <?php $this->push('estilos_librerias'); ?>
 <link rel="stylesheet" type="text/css" href="/asset/libs/DataTables/datatables.min.css"/>

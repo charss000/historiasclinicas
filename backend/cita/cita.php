@@ -246,13 +246,14 @@ $(document).ready(function(){
 $(document).on('click', '.btnverhoras', function(){
   var idd = $('#output').val();
   var idu = $('#idusu').val();
+  var fecha = $('#fecha').val();
 
     if(idd != '' && idu != '')
     {
       $.ajax({
            url:"verhoras.php",
            method:"POST",
-           data:{idd:idd,idu:idu},
+           data:{idd:idd,idu:idu,fecha:fecha},
            success:function(data){
              $('#hora').html(data);
            }

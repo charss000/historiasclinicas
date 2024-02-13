@@ -1,0 +1,383 @@
+[24-Dec-2023 13:24:10 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_laboratorio.php on line 14
+[24-Dec-2023 13:24:11 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_laboratorio.php on line 14
+[24-Dec-2023 13:26:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect date value: '' for column `cstintaypuncocom_db`.`laboratorio`.`f_muestra` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:30
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(30): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(67): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 30
+[24-Dec-2023 13:27:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect date value: '' for column `cstintaypuncocom_db`.`laboratorio`.`f_muestra` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:30
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(30): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(67): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 30
+[24-Dec-2023 13:28:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect date value: '' for column `cstintaypuncocom_db`.`laboratorio`.`f_muestra` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:30
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(30): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(67): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 30
+[24-Dec-2023 13:29:03 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[24-Dec-2023 13:29:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect date value: '' for column `cstintaypuncocom_db`.`laboratorio`.`f_muestra` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:30
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(30): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(67): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 30
+[24-Dec-2023 13:29:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect date value: '' for column `cstintaypuncocom_db`.`laboratorio`.`f_muestra` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:30
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(30): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(67): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 30
+[24-Dec-2023 13:29:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect date value: '' for column `cstintaypuncocom_db`.`laboratorio`.`f_muestra` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:30
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(30): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(67): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 30
+[24-Dec-2023 14:17:43 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[24-Dec-2023 14:26:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect date value: '' for column `cstintaypuncocom_db`.`laboratorio`.`f_muestra` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:30
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(30): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(67): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 30
+[24-Dec-2023 14:26:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect date value: '' for column `cstintaypuncocom_db`.`laboratorio`.`f_muestra` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:30
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(30): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(67): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 30
+[24-Dec-2023 15:32:14 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[24-Dec-2023 16:29:10 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[24-Dec-2023 16:29:11 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[08-Jan-2024 23:08:12 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_laboratorio.php on line 14
+[08-Jan-2024 23:08:13 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_laboratorio.php on line 14
+[08-Jan-2024 23:08:14 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_laboratorio.php on line 14
+[08-Jan-2024 23:08:15 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_laboratorio.php on line 14
+[08-Jan-2024 23:08:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect date value: '' for column `cstintaypuncocom_db`.`laboratorio`.`f_muestra` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:30
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(30): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(67): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 30
+[08-Jan-2024 23:09:53 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[08-Jan-2024 23:09:55 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[08-Jan-2024 23:12:15 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[08-Jan-2024 23:12:15 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[08-Jan-2024 23:12:17 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[08-Jan-2024 23:12:20 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[08-Jan-2024 23:12:21 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[08-Jan-2024 23:12:22 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[08-Jan-2024 23:12:30 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[08-Jan-2024 23:12:38 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[08-Jan-2024 23:12:39 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[08-Jan-2024 23:12:40 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[12-Jan-2024 19:53:38 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_laboratorio.php on line 14
+[12-Jan-2024 19:53:39 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_laboratorio.php on line 14
+[12-Jan-2024 19:53:40 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_laboratorio.php on line 14
+[12-Jan-2024 19:54:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect date value: '' for column `cstintaypuncocom_db`.`laboratorio`.`f_muestra` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:30
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(30): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(67): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 30
+[12-Jan-2024 19:56:19 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[12-Jan-2024 19:56:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect date value: '' for column `cstintaypuncocom_db`.`laboratorio`.`f_muestra` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:30
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(30): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(67): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 30
+[12-Jan-2024 20:01:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect date value: '' for column `cstintaypuncocom_db`.`laboratorio`.`f_muestra` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:30
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(30): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(67): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 30
+[17-Jan-2024 15:22:02 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_laboratorio.php on line 14
+[17-Jan-2024 15:22:03 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_laboratorio.php on line 14
+[17-Jan-2024 15:22:04 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_laboratorio.php on line 14
+[17-Jan-2024 15:22:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect date value: '' for column `cstintaypuncocom_db`.`laboratorio`.`f_muestra` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:30
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(30): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(67): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 30
+[17-Jan-2024 15:38:50 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[17-Jan-2024 15:38:55 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[17-Jan-2024 15:38:56 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[17-Jan-2024 15:39:12 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[17-Jan-2024 15:39:15 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[17-Jan-2024 15:39:16 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[17-Jan-2024 15:39:30 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[17-Jan-2024 15:39:30 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[17-Jan-2024 15:39:31 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[17-Jan-2024 16:41:26 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 26
+[17-Jan-2024 16:43:20 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 27
+[17-Jan-2024 16:44:31 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 27
+[17-Jan-2024 16:50:08 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_laboratorio.php on line 14
+[17-Jan-2024 16:51:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect date value: '' for column `cstintaypuncocom_db`.`laboratorio`.`f_muestra` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:31
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(31): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(67): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 31
+[18-Jan-2024 03:05:05 UTC] PHP Warning:  Undefined array key "usuario_res" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 22
+[18-Jan-2024 03:05:05 UTC] PHP Warning:  Undefined array key "idservicio" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 24
+[18-Jan-2024 03:05:05 UTC] PHP Warning:  Undefined variable $examen in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 59
+[18-Jan-2024 03:05:05 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[18-Jan-2024 03:05:05 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[18-Jan-2024 03:05:05 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[18-Jan-2024 03:05:05 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[18-Jan-2024 03:05:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column `cstintaypuncocom_db`.`venta`.`subtotal` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:31
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(31): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(68): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 31
+[18-Jan-2024 03:07:45 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 03:07:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 03:07:45 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 03:07:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 03:07:56 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 03:07:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 03:07:56 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 03:07:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[17-Jan-2024 22:08:03 America/Lima] PHP Warning:  Undefined variable $res in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 172
+[18-Jan-2024 03:08:18 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 03:08:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 03:08:18 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 03:08:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 03:21:45 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 03:21:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 03:21:45 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 03:21:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 03:40:43 UTC] PHP Warning:  Undefined array key "usuario_res" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 22
+[18-Jan-2024 03:40:43 UTC] PHP Warning:  Undefined array key "idservicio" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 24
+[18-Jan-2024 03:40:43 UTC] PHP Warning:  Undefined variable $examen in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 59
+[18-Jan-2024 03:40:43 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[18-Jan-2024 03:40:43 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[18-Jan-2024 03:40:43 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[18-Jan-2024 03:40:43 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[18-Jan-2024 03:40:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column `cstintaypuncocom_db`.`venta`.`subtotal` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:31
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(31): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(68): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 31
+[18-Jan-2024 03:42:10 UTC] PHP Warning:  Undefined array key "usuario_res" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 22
+[18-Jan-2024 03:42:10 UTC] PHP Warning:  Undefined array key "idservicio" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 24
+[18-Jan-2024 03:42:10 UTC] PHP Warning:  Undefined variable $examen in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 59
+[18-Jan-2024 03:42:10 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[18-Jan-2024 03:42:10 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[18-Jan-2024 03:42:10 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[18-Jan-2024 03:42:10 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[18-Jan-2024 03:42:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column `cstintaypuncocom_db`.`venta`.`subtotal` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:31
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(31): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(68): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 31
+[18-Jan-2024 03:42:33 UTC] PHP Warning:  Undefined array key "usuario_res" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 22
+[18-Jan-2024 03:42:33 UTC] PHP Warning:  Undefined array key "idservicio" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 24
+[18-Jan-2024 03:42:33 UTC] PHP Warning:  Undefined variable $examen in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 59
+[18-Jan-2024 03:42:33 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[18-Jan-2024 03:42:33 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[18-Jan-2024 03:42:33 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[18-Jan-2024 03:42:33 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[18-Jan-2024 03:42:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column `cstintaypuncocom_db`.`venta`.`subtotal` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:31
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(31): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(68): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 31
+[18-Jan-2024 03:43:08 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 03:43:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 03:43:08 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 03:43:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 03:43:08 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 03:43:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 03:43:08 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 03:43:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 03:43:08 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 03:43:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 03:43:08 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 03:43:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 03:45:11 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 27
+[18-Jan-2024 03:45:11 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 27
+[18-Jan-2024 03:45:14 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_paciente.php on line 27
+[18-Jan-2024 04:01:54 UTC] PHP Warning:  Undefined array key "usuario_res" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 22
+[18-Jan-2024 04:01:54 UTC] PHP Warning:  Undefined array key "idservicio" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 24
+[18-Jan-2024 04:01:54 UTC] PHP Warning:  Undefined variable $examen in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 59
+[18-Jan-2024 04:01:54 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[18-Jan-2024 04:01:54 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[18-Jan-2024 04:01:54 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[18-Jan-2024 04:01:54 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[18-Jan-2024 04:01:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column `cstintaypuncocom_db`.`venta`.`subtotal` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:31
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(31): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(68): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 31
+[18-Jan-2024 04:02:13 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 04:02:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 04:02:13 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 04:02:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 05:13:20 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 05:13:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 05:13:20 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 05:13:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 05:14:48 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 05:14:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 05:14:48 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 05:14:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 05:17:20 UTC] PHP Warning:  Undefined array key "estado" in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 05:17:20 UTC] PHP Warning:  Undefined array key "estado" in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 05:17:20 UTC] PHP Warning:  Undefined array key "estado" in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 05:17:20 UTC] PHP Warning:  Undefined array key "estado" in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 05:17:20 UTC] PHP Warning:  Undefined array key "estado" in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 05:17:20 UTC] PHP Warning:  Undefined array key "estado" in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 05:17:20 UTC] PHP Warning:  Undefined array key "estado" in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 05:17:20 UTC] PHP Warning:  Undefined array key "estado" in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 05:17:20 UTC] PHP Warning:  Undefined array key "estado" in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 05:17:20 UTC] PHP Warning:  Undefined array key "estado" in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 05:17:20 UTC] PHP Warning:  Undefined array key "estado" in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 05:17:20 UTC] PHP Warning:  Undefined array key "estado" in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 05:17:20 UTC] PHP Warning:  Undefined array key "estado" in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 05:17:20 UTC] PHP Warning:  Undefined array key "estado" in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 05:17:20 UTC] PHP Warning:  Undefined array key "estado" in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 05:17:20 UTC] PHP Warning:  Undefined array key "estado" in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 05:17:20 UTC] PHP Warning:  Undefined array key "estado" in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 05:17:20 UTC] PHP Warning:  Undefined array key "estado" in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 05:17:43 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 05:17:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 75
+[18-Jan-2024 05:17:43 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 05:17:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 83
+[18-Jan-2024 05:22:04 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 76
+[18-Jan-2024 05:22:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 76
+[18-Jan-2024 05:22:04 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 84
+[18-Jan-2024 05:22:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 84
+[18-Jan-2024 05:23:19 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 77
+[18-Jan-2024 05:23:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 77
+[18-Jan-2024 05:23:19 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 85
+[18-Jan-2024 05:23:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 85
+[18-Jan-2024 05:24:56 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 77
+[18-Jan-2024 05:24:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 77
+[18-Jan-2024 05:24:56 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 85
+[18-Jan-2024 05:24:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 85
+[18-Jan-2024 05:25:37 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 77
+[18-Jan-2024 05:25:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 77
+[18-Jan-2024 05:25:37 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 86
+[18-Jan-2024 05:25:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 86
+[18-Jan-2024 05:26:50 UTC] PHP Warning:  Undefined variable $ra in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 86
+[18-Jan-2024 05:26:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cstintaypuncocom/public_html/backend/laboratorio/index.php on line 86
+[18-Jan-2024 00:27:33 America/Lima] PHP Warning:  Undefined variable $res in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 172
+[18-Jan-2024 14:59:19 UTC] PHP Warning:  Undefined array key "usuario_res" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 22
+[18-Jan-2024 14:59:19 UTC] PHP Warning:  Undefined array key "idservicio" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 24
+[18-Jan-2024 14:59:19 UTC] PHP Warning:  Undefined variable $examen in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 59
+[18-Jan-2024 14:59:19 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[18-Jan-2024 14:59:19 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[18-Jan-2024 14:59:19 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[18-Jan-2024 14:59:19 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[18-Jan-2024 14:59:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column `cstintaypuncocom_db`.`venta`.`subtotal` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:31
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(31): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(68): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 31
+[18-Jan-2024 15:00:28 UTC] PHP Warning:  Undefined array key "usuario_res" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 22
+[18-Jan-2024 15:00:28 UTC] PHP Warning:  Undefined array key "idservicio" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 24
+[18-Jan-2024 15:00:28 UTC] PHP Warning:  Undefined variable $examen in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 59
+[18-Jan-2024 15:00:28 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[18-Jan-2024 15:00:28 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[18-Jan-2024 15:00:28 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[18-Jan-2024 15:00:28 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[18-Jan-2024 15:00:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column `cstintaypuncocom_db`.`venta`.`subtotal` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:31
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(31): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(68): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 31
+[18-Jan-2024 10:55:04 America/Lima] PHP Warning:  Undefined variable $res in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 172
+[19-Jan-2024 21:47:40 UTC] PHP Warning:  Undefined array key "idlab" in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 3
+[19-Jan-2024 16:47:40 America/Lima] PHP Warning:  Undefined variable $idpaciente in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 23
+[19-Jan-2024 16:47:40 America/Lima] PHP Warning:  Undefined variable $resp in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 36
+[19-Jan-2024 16:47:40 America/Lima] PHP Warning:  Undefined variable $idpaciente in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 48
+[19-Jan-2024 16:47:40 America/Lima] PHP Warning:  Undefined variable $idpaciente in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 99
+[19-Jan-2024 16:47:40 America/Lima] PHP Warning:  Undefined variable $paciente in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 100
+[19-Jan-2024 16:47:40 America/Lima] PHP Warning:  Undefined variable $sex in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 124
+[19-Jan-2024 16:47:40 America/Lima] PHP Warning:  Undefined variable $history in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 136
+[19-Jan-2024 16:47:40 America/Lima] PHP Warning:  Undefined variable $anios in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 148
+[19-Jan-2024 16:47:40 America/Lima] PHP Warning:  Undefined variable $meses in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 148
+[19-Jan-2024 16:47:40 America/Lima] PHP Warning:  Undefined variable $dias in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 148
+[19-Jan-2024 16:47:40 America/Lima] PHP Warning:  Undefined variable $ex in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 166
+[19-Jan-2024 16:47:40 America/Lima] PHP Warning:  Undefined variable $res in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 172
+[19-Jan-2024 16:47:40 America/Lima] PHP Warning:  Undefined variable $f_muestra in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 188
+[19-Jan-2024 16:47:40 America/Lima] PHP Warning:  Undefined variable $f_entrega in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 195
+[19-Jan-2024 16:49:25 America/Lima] PHP Warning:  Undefined variable $idpaciente in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 23
+[19-Jan-2024 16:49:25 America/Lima] PHP Warning:  Undefined variable $resp in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 36
+[19-Jan-2024 16:49:25 America/Lima] PHP Warning:  Undefined variable $idpaciente in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 48
+[19-Jan-2024 16:49:25 America/Lima] PHP Warning:  Undefined variable $idpaciente in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 99
+[19-Jan-2024 16:49:25 America/Lima] PHP Warning:  Undefined variable $paciente in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 100
+[19-Jan-2024 16:49:25 America/Lima] PHP Warning:  Undefined variable $sex in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 124
+[19-Jan-2024 16:49:25 America/Lima] PHP Warning:  Undefined variable $history in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 136
+[19-Jan-2024 16:49:25 America/Lima] PHP Warning:  Undefined variable $anios in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 148
+[19-Jan-2024 16:49:25 America/Lima] PHP Warning:  Undefined variable $meses in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 148
+[19-Jan-2024 16:49:25 America/Lima] PHP Warning:  Undefined variable $dias in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 148
+[19-Jan-2024 16:49:25 America/Lima] PHP Warning:  Undefined variable $ex in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 166
+[19-Jan-2024 16:49:25 America/Lima] PHP Warning:  Undefined variable $res in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 172
+[19-Jan-2024 16:49:25 America/Lima] PHP Warning:  Undefined variable $f_muestra in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 188
+[19-Jan-2024 16:49:25 America/Lima] PHP Warning:  Undefined variable $f_entrega in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 195
+[19-Jan-2024 17:01:54 America/Lima] PHP Warning:  Undefined variable $res in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 172
+[19-Jan-2024 17:02:06 America/Lima] PHP Warning:  Undefined variable $res in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 172
+[19-Jan-2024 17:02:44 America/Lima] PHP Warning:  Undefined variable $res in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 172
+[19-Jan-2024 22:03:10 UTC] PHP Warning:  Undefined array key "usuario_res" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 22
+[19-Jan-2024 22:03:10 UTC] PHP Warning:  Undefined array key "idservicio" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 24
+[19-Jan-2024 22:03:10 UTC] PHP Warning:  Undefined variable $examen in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 59
+[19-Jan-2024 22:03:10 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[19-Jan-2024 22:03:10 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[19-Jan-2024 22:03:10 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[19-Jan-2024 22:03:10 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[19-Jan-2024 22:03:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column `cstintaypuncocom_db`.`venta`.`subtotal` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:31
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(31): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(68): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 31
+[19-Jan-2024 22:03:42 UTC] PHP Warning:  Undefined array key "usuario_res" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 22
+[19-Jan-2024 22:03:42 UTC] PHP Warning:  Undefined array key "idservicio" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 24
+[19-Jan-2024 22:03:42 UTC] PHP Warning:  Undefined variable $examen in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 59
+[19-Jan-2024 22:03:42 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[19-Jan-2024 22:03:42 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[19-Jan-2024 22:03:42 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[19-Jan-2024 22:03:42 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[19-Jan-2024 22:03:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column `cstintaypuncocom_db`.`venta`.`subtotal` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:31
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(31): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(68): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 31
+[19-Jan-2024 22:06:45 UTC] PHP Warning:  Undefined array key "usuario_res" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 22
+[19-Jan-2024 22:06:45 UTC] PHP Warning:  Undefined array key "idservicio" in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 24
+[19-Jan-2024 22:06:45 UTC] PHP Warning:  Undefined variable $examen in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 59
+[19-Jan-2024 22:06:45 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[19-Jan-2024 22:06:45 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 62
+[19-Jan-2024 22:06:45 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[19-Jan-2024 22:06:45 UTC] PHP Warning:  Undefined variable $precio in /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php on line 65
+[19-Jan-2024 22:06:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column `cstintaypuncocom_db`.`venta`.`subtotal` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:31
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(31): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/laboratorio/capturar.php(68): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 31
+[19-Jan-2024 17:13:35 America/Lima] PHP Warning:  Undefined variable $res in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 174
+[19-Jan-2024 22:13:50 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[19-Jan-2024 17:14:48 America/Lima] PHP Warning:  Undefined variable $res in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 174
+[19-Jan-2024 17:15:27 America/Lima] PHP Warning:  Undefined variable $res in /home/cstintaypuncocom/public_html/backend/laboratorio/ver_examenes.php on line 174
+[10-Feb-2024 00:54:43 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_laboratorio.php on line 14
+[10-Feb-2024 00:54:45 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_laboratorio.php on line 14
+[10-Feb-2024 00:54:45 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_laboratorio.php on line 14
+[10-Feb-2024 00:54:47 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cstintaypuncocom/public_html/backend/laboratorio/buscar_laboratorio.php on line 14

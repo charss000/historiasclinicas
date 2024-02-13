@@ -54,8 +54,10 @@ ON usuario.idespecialidad = especialidad.idespecial");
                 echo "";
                }elseif ($row['tipo']=='laboratorio'){
                  echo "";
+               }elseif($row['estado'] == 'activo'){
+                   echo "<a href='horario.php?idusu=".$row['idusu']."' class='btn btn-default btn-sm'><i class='fa fa-calendar'></i> Horarios";
                }else {
-                 echo "<a href='horario.php?idusu=".$row['idusu']."' class='btn btn-default btn-sm'><i class='fa fa-calendar'></i> Horarios";
+                 echo "";
                }
               ?> </td>
               </tr>

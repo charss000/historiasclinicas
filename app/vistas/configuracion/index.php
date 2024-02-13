@@ -1,6 +1,6 @@
 <?php
 
-$this->layout('../plantilla/index',['titulo'=>'SISCLINICA -  Configuración'])
+$this->layout('../plantilla/index',['titulo'=>'CS TINTAY PUNCO -  Configuración'])
 ?>
 <?php $this->start('contenido'); ?>
 

@@ -72,7 +72,7 @@ $data=$obj->consultar("SELECT * from servicio WHERE idservicio='".$obj->real_esc
 								</div>
 								<select name="idusu" class='form-control'>
 										 <?php
-																				 $result=$obj->consultar("SELECT * from usuario where tipo<>'laboratorio'");
+																				 $result=$obj->consultar("SELECT * from usuario where tipo<>'laboratorio' AND estado = 'activo'");
 																				 foreach((array)$result as $row){
 																				 if($row['idusu']==$idusu){
 																					 echo '<option value="'.$row['idusu'].'" selected>'.$row['nombres'].'</option>';

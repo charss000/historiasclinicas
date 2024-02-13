@@ -22,6 +22,7 @@ FROM cita
   INNER JOIN usuario
     ON cita.idusuario = usuario.idusu
 WHERE usuario.usuario = '$usu' AND paciente.paciente like '%" .($_GET['term']) . "%' LIMIT 0 ,100");
+
 	/* Recuperar y almacenar en conjunto los resultados de la consulta.*/
 	foreach($data as $row) {
 		$idpaciente=$row['idpaciente'];

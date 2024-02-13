@@ -108,12 +108,15 @@ ON usuario.idespecialidad = especialidad.idespecial
     <td width="336">Edad:</td>
     <td width="206"><table width="207" border="1" cellspacing="0">
       <tr>
-        <td width="60">Años</td>
-        <td width="74">Meses</td>
-        <td width="59">Dias</td>
+        <td width="60" align="center">Años</td>
+        <td width="74" align="center">Meses</td>
+        <td width="59" align="center">Dias</td>
         </tr>
       <tr>
-        <td colspan="3" align="center"><?php echo $edad;?></td>
+          <?php $f = explode(',',$edad) ?>
+        <td align="center"><?php echo $f[0];?></td>
+        <td align="center"><?php echo $f[1];?></td>
+        <td align="center"><?php echo $f[2];?></td>
         </tr>
     </table></td>
   </tr>
@@ -178,7 +181,7 @@ ON usuario.idespecialidad = especialidad.idespecial
 </html>
 
 <?php
-require_once("../../vendor/autoload.php");
+require_once("vendor/autoload.php");
 use Dompdf\Dompdf;
 $dompdf = new Dompdf();
 $dompdf->loadHtml(ob_get_clean());

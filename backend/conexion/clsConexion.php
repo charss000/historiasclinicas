@@ -5,17 +5,10 @@ class clsConexion{
     //modificar los datos de la conexion
 		$host="localhost";
 		$db_name="cstintaypuncocom_db";
-<<<<<<< HEAD
-		$user="root";
-		$pass="";
-		//$user="cstintaypuncocom_root";
-		//$pass="6eoM-QX03A,x";
-=======
 		//$user="root";
 		//$pass="";
 		$user="cstintaypuncocom_root";
 		$pass="6eoM-QX03A,x";
->>>>>>> 558fe3c3c9ab90591ca28de969059bedf268afa4
 		$this->con=mysqli_connect($host,$user,$pass) or die ("error en la conexion a la bd");
 	       mysqli_select_db($this->con,$db_name) or die("no se encontro la bd");
     $this->con->set_charset("utf8");
@@ -25,6 +18,7 @@ class clsConexion{
     }
 	function consultar($sql){
 	  //$con = new clsConexion;
+
 	  $res=mysqli_query($this->con,$sql);
 	  $data=NULL;
 	  while($fila=mysqli_fetch_assoc($res)){

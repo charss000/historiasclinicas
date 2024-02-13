@@ -1,6 +1,6 @@
 <?php
 
-$this->layout('../plantilla/index',['titulo'=>'SISCLINICA - Actualizar Paciente'])
+$this->layout('../plantilla/index',['titulo'=>'CS TINTAY PUNCO - Actualizar Paciente'])
 ?>
 
 <?php $this->push('script_librerias1'); ?>

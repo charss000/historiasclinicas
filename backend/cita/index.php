@@ -7,7 +7,7 @@ $result=$obj->consultar("SELECT especialidad.especialidad
 FROM
   usuario
 INNER JOIN especialidad
-ON usuario.idespecialidad = especialidad.idespecial where tipo<>'administrador' and tipo<>'laboratorio'");
+ON usuario.idespecialidad = especialidad.idespecial where tipo<>'administrador' and tipo<>'laboratorio' AND estado = 'activo'");
 ?>
 <div class="content-wrapper">
   <section class="content">

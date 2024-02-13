@@ -2,7 +2,7 @@
     <div class="pull-right hidden-xs">
       <b>Version</b> 1.0.0
     </div>
-    <strong>Copyright &copy; <?php echo date('Y');?> - <a href="">sisclinica</a>.</strong> All rights
+    <strong>Copyright &copy; <?php echo date('Y');?> - <a href="">CS TINTAY PUNCO</a>.</strong> All rights
     reserved.
  </footer>
 <!-- jQuery 2.2.3 -->

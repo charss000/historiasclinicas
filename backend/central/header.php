@@ -18,7 +18,7 @@ $result=$obj->consultar("SELECT nombres from usuario WHERE usuario='$usuario'");
 <html>
 <head>
   <meta charset="utf-8">
-  <title>SISCLINICA</title>
+  <title>CS TINTAY PUNCO</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -40,7 +40,7 @@ $result=$obj->consultar("SELECT nombres from usuario WHERE usuario='$usuario'");
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>SI</b>CLI</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>SISCLINICA</b></span>
+      <span class="logo-lg"><b>CS TINTAY PUNCO</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -65,7 +65,12 @@ $result=$obj->consultar("SELECT nombres from usuario WHERE usuario='$usuario'");
       </div>
     </nav>
   </header>
+
   <aside class="main-sidebar">
+        <?php
+  $url = explode('/',$_SERVER['REQUEST_URI']);
+
+  ?>
       <!-- sidebar: style can be found in sidebar.less -->
       <section class="sidebar">
         <!-- Sidebar user panel -->
@@ -73,65 +78,65 @@ $result=$obj->consultar("SELECT nombres from usuario WHERE usuario='$usuario'");
           <li class="header"><?php echo "<p style='legend;' >" . $r_z. "</p>"; ?></li>
           <li class="header">Panel de Navegacion</li>
           <?php
-          if ($tipo=="administrador") {
-            echo '<li class="active treeview"><a href="../inicio/index.php"><i class="fa fa-home"></i> <span>Inicio</span></a></li>';
-          }
+          if ($tipo=="administrador") { ?>
+          
+          
+            <li class="<?= ($url[2]=='inicio' && $url[3]=='index.php')?'active':''?> treeview"><a href="../inicio/index.php"><i class="fa fa-home"></i> <span>Inicio</span></a></li>
+         <?php }
+
+          if ($tipo=="usuario") { ?>
+            <li class="<?= $url[3]=='index_usuario.php'?'active':'' ?> treeview"><a href="../inicio/index_usuario.php"><i class="fa fa-calendar"></i> <span>Calendario</span></a></li>
+          <?php }
           ?>
           <?php
-          if ($tipo=="usuario") {
-            echo '<li class="active treeview"><a href="../inicio/index_usuario.php"><i class="fa fa-calendar"></i> <span>Calendario</span></a></li>';
-          }
-          ?>
-          <?php
-           if ($tipo=="usuario" || $tipo=="administrador") {
-           echo '<li><a href="../historia/index.php"><i class="fa fa-history"></i> <span>Historias</span></a></li>';
-           }?>
+           if ($tipo=="usuario" || $tipo=="administrador") { ?>
+           <li class="<?= ($url[2]=='historia' && $url[3]=='index.php')?'active':'' ?>"><a href="../historia/index.php"><i class="fa fa-history"></i> <span>Historias</span></a></li>
+          <?php  }
+          
+            if ($tipo=="laboratorio") { ?>
+            <li class="<?= $url[2]=='laboratorio_usuario'?'active':'' ?>"><a href="../laboratorio_usuario/index.php"><i class="fa fa-flask"></i> <span>Laboratorio</span></a></li>'
+           <?php }
 
-           <?php
-            if ($tipo=="laboratorio") {
-            echo '<li><a href="../laboratorio_usuario/index.php"><i class="fa fa-flask"></i> <span>Laboratorio</span></a></li>';
-            }?>
-
-          <?php
-           if ($tipo=="usuario") {
-            echo '<li><a href="../historia/historial.php"><i class="fa fa-address-card"></i> <span>Historial</span></a></li>';
-            }
-           ?>
+          
+           if ($tipo=="usuario") {?>
+            <li class="<?= $url[3]=='historial.php'?'active':'' ?>"><a href="../historia/historial.php"><i class="fa fa-address-card"></i> <span>Historial</span></a></li>
+           <?php }
+/*
           <!-- <li><a href="../vitales/index.php"><i class="fa fa-heart"></i> <span>Funciones Vitales</span></a></li> -->
-          <?php
-          if ($tipo=="administrador") {
-            echo '<li><a href="../paciente/index.php"><i class="fa fa-wheelchair"></i> <span>Paciente</span></a></li>';
-          }?>
+          */
+          if ($tipo=="administrador") {?>
+            <li class="<?= $url[2]=='paciente'?'active':'' ?>"><a href="../paciente/index.php"><i class="fa fa-wheelchair"></i> <span>Paciente</span></a></li>
+         <?php }
 
-          <?php
-          if ($tipo=="usuario") {
-          echo '<li><a href="../laboratorio/index.php"><i class="fa fa-flask"></i> <span>laboratorio</span></a></li>';
-          }?>
+          
+          if ($tipo=="usuario") {?>
+          <li class="<?= $url[2]=='laboratorio'?'active':'' ?>"><a href="../laboratorio/index.php"><i class="fa fa-flask"></i> <span>laboratorio</span></a></li>
+         <?php }
 
-          <?php
-          if ($tipo=="administrador") {
-          echo '<li><a href="../venta/index.php"><i class="fa fa-dollar"></i> <span>Pagos</span></a></li>';
-          }?>
+          
+          if ($tipo=="administrador") {?>
+          <li class="<?= $url[2]=='venta'?'active':'' ?>"><a href="../venta/index.php"><i class="fa fa-dollar"></i> <span>Pagos</span></a></li>
+          <?php }
 
-          <?php
-          if ($tipo=="administrador") {
-            echo '<li><a href="../servicio/index.php"><i class="fa fa-edit"></i> <span>Servicio-Producto</span></a></li>';
-          }?>
-          <?php
-          if ($tipo=="usuario") {
-            echo '<li><a href="../documento/index.php"><i class="fa fa-file"></i> <span>Documentos</span></a></li>';
-          }
-         ?>
-          <?php
-          if ($tipo=="administrador") {
-            echo '<li><a href="../cita/index.php"><i class="fa fa-clock-o"></i> <span>Citas</span></a></li>';
-          }?>
-          <?php
-          if ($tipo=="usuario") {
-            echo '<li><a href="../cita_usuario/index.php"><i class="fa fa-clock-o"></i> <span>Proxima Cita</span></a></li>';
-          }?>
+          
+          if ($tipo=="administrador") { ?>
+            <li class="<?= $url[2]=='servicio'?'active':'' ?>"><a href="../servicio/index.php"><i class="fa fa-edit"></i> <span>Servicio-Producto</span></a></li>
+          <?php }
+          
+          if ($tipo=="usuario") {?>
+            <li class="<?= $url[2]=='documento'?'active':'' ?>"><a href="../documento/index.php"><i class="fa fa-file"></i> <span>Documentos</span></a></li>
+         <?php }
+         
+          
+          if ($tipo=="administrador") {?>
+            <li class="<?= $url[2]=='cita'?'active':'' ?>"><a href="../cita/index.php"><i class="fa fa-clock-o"></i> <span>Citas</span></a></li>
+         <?php }
+          
+          if ($tipo=="usuario") {?>
+            <li class="<?= $url[2]=='cita_usuario'?'active':'' ?>"><a href="../cita_usuario/index.php"><i class="fa fa-clock-o"></i> <span>Proxima Cita</span></a></li>
+         <?php }
 
-          <?php
+          
           if ($tipo=="administrador") {
             echo '<li class="treeview">
                 <a href="#">

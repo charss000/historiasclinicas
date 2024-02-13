@@ -102,10 +102,10 @@ $resultc=$obj->consultar("SELECT * FROM configuracion");
                                                       <div class="input-group-addon">
                                                         <i class="fa fa-neuter"></i>
                                                       </div>
-                                        <input type="hidden" name="" id="anio">
-                                        <input type="hidden" name="" id="mes">
-                                        <input type="hidden" name="" id="dia">
-              <input type="text" class="form-control" name="edad" id="edad" readonly required >
+                                                    <input type="hidden" name="" id="anio">
+                                                    <input type="hidden" name="" id="mes">
+                                                    <input type="hidden" name="" id="dia">
+                                                    <input type="text" class="form-control" name="edad" id="edad" readonly required >
                                                     </div>
                                                     </div>
                                         </div>
@@ -113,38 +113,38 @@ $resultc=$obj->consultar("SELECT * FROM configuracion");
                      </div>
                   </div>
 
-<div class="col-md-12">
+                    <div class="col-md-12">
 
-                <div class="col-md-6">
-                  <h4>Datos del Examen</h4>
-                  <div class="panel panel-success">
-                    <div class="panel-body">
-
-                        <div class="col-md-12">
-                              <div class="form-group">
-                              <label>Examen:</label>
-                              <select name="idservicio" class='form-control' required>
-                                 <?php
-                                                     $result_u=$obj->consultar("SELECT * from servicio where idusu='$idusuario'");
-                                                     foreach((array)$result_u as $row){
-                                                       echo '<option value="'.$row['idservicio'].'" selected>'.$row['descripcion'].'</option>';
-                                                   }
-                                   ?>
-                               </select>
-                              </div>
+                        <div class="col-md-6">
+                            <h4>Datos del Examen</h4>
+                            <div class="panel panel-success">
+                                <div class="panel-body">
+        
+                                    <div class="col-md-12">
+                                          <div class="form-group">
+                                          <label>Examen:</label>
+                                          <select name="idservicio" class='form-control' required>
+                                             <?php
+                                                                 $result_u=$obj->consultar("SELECT * from servicio where idusu='$idusuario'");
+                                                                 foreach((array)$result_u as $row){
+                                                                   echo '<option value="'.$row['idservicio'].'" selected>'.$row['descripcion'].'</option>';
+                                                               }
+                                               ?>
+                                           </select>
+                                          </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                                <div class="form-group">
+                                                  <label>Asignado:</label>
+                                                  <input type="hidden" name="usuario_res" id="usuario_res" required>
+                                                  <input type="text" class="form-control" name="responsable"  id="nombres" required>
+                                                  </div>
+                                    </div>
+            
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-12">
-                                    <div class="form-group">
-                                      <label>Asignado:</label>
-                                      <input type="hidden" name="usuario_res" id="usuario_res" required>
-                                      <input type="text" class="form-control" name="responsable"  id="nombres" required>
-                                      </div>
-                        </div>
-
-                  </div>
-                </div>
-             </div>
-      </form>
+                    </form>
                     <div class="col-md-6">
                       <h4>ACCIONES</h4>
                       <div class="panel panel-success">

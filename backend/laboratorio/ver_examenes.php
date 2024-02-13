@@ -35,6 +35,7 @@ $result_idpa=$obj->consultar("SELECT * from laboratorio WHERE idlab='$idlab'");
       //obtener asignado de laboratorio
       $result_la=$obj->consultar("SELECT * from usuario WHERE usuario='$resp'");
         foreach((array)$result_la as $row){
+            $idRes=$row['idusu'];
           $res=$row["nombres"];
         }
 
@@ -169,6 +170,7 @@ $result_idpa=$obj->consultar("SELECT * from laboratorio WHERE idlab='$idlab'");
                         <div class="col-md-12">
                                     <div class="form-group">
                                       <label>Asignado:</label>
+                                      <input type="hidden" name="idmedico" value="<?php echo $idusuario; ?>">
                                       <input type="text" class="form-control" name="responsable" required value="<?php echo "$res"; ?>" readonly>
                                       </div>
                         </div>
@@ -239,8 +241,8 @@ $result_idpa=$obj->consultar("SELECT * from laboratorio WHERE idlab='$idlab'");
 
         <!-- /.box-body -->
         <div class="box-footer">
-         <center><button type="submit" name="funcion" value="registrar" class="btn btn-success"><i class="fa fa-save"></i> Registrar </button>
-             <a href="javascript: history.go(-1)" class="btn btn-success btn-flat"><i class="fa fa-backward"></i> Cancelar</a>
+         <center><button type="submit" name="funcion" value="registrar" class="btn btn-success hide"><i class="fa fa-save"></i> Registrar </button>
+             <a href="javascript: history.go(-1)" class="btn btn-success btn-flat"><i class="fa fa-backward"></i> volver atras</a>
          </center>
         </div>
       </form>

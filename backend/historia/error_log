@@ -1,0 +1,104 @@
+[24-Dec-2023 11:40:22 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[24-Dec-2023 12:29:22 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[24-Dec-2023 12:33:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column `cstintaypuncocom_db`.`historia`.`imc` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:30
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(30): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/historia/capturar.php(71): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 30
+[24-Dec-2023 12:33:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column `cstintaypuncocom_db`.`historia`.`imc` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:30
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(30): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/historia/capturar.php(71): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 30
+[24-Dec-2023 12:33:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column `cstintaypuncocom_db`.`historia`.`imc` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:30
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(30): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/historia/capturar.php(71): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 30
+[24-Dec-2023 12:33:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column `cstintaypuncocom_db`.`historia`.`imc` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:30
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(30): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/historia/capturar.php(71): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 30
+[17-Jan-2024 15:28:18 UTC] PHP Warning:  Undefined array key "idhistoria" in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 3
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $idusuario in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 67
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $nombres in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 68
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $idpaciente in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 80
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $pa in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 81
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $fec in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 93
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $sex in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 105
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $naci in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 117
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $his in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 129
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $edad in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 148
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $talla in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 157
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $peso in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 165
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $mmhg in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 173
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $frec in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 181
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $temp in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 189
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $frec in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 197
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $imc in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 205
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $motivo in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 223
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $ef in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 232
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $diag in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 241
+[17-Jan-2024 15:28:19 UTC] PHP Warning:  Undefined variable $trata in /home/cstintaypuncocom/public_html/backend/historia/actualizar.php on line 250
+[18-Jan-2024 04:23:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: explode() expects at least 2 arguments, 1 given in /home/cstintaypuncocom/public_html/backend/central/header.php:69
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/central/header.php(69): explode()
+#1 /home/cstintaypuncocom/public_html/backend/historia/index.php(2): include('/home/cstintayp...')
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/central/header.php on line 69
+[18-Jan-2024 04:25:15 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[18-Jan-2024 04:27:59 UTC] PHP Parse error:  syntax error, unexpected identifier "inicio", expecting "," or ";" in /home/cstintaypuncocom/public_html/backend/central/header.php on line 81
+[18-Jan-2024 04:54:29 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[18-Jan-2024 14:47:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column `cstintaypuncocom_db`.`historia`.`imc` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:31
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(31): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/historia/capturar.php(71): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 31
+[18-Jan-2024 14:48:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column `cstintaypuncocom_db`.`historia`.`imc` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:31
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(31): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/historia/capturar.php(71): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 31
+[18-Jan-2024 14:59:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column `cstintaypuncocom_db`.`historia`.`imc` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:31
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(31): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/historia/capturar.php(71): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 31
+[18-Jan-2024 15:24:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column `cstintaypuncocom_db`.`historia`.`imc` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:31
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(31): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/historia/capturar.php(71): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 31
+[19-Jan-2024 20:57:29 UTC] PHP Warning:  Undefined array key "idpaciente" in /home/cstintaypuncocom/public_html/backend/historia/insertar.php on line 5
+[19-Jan-2024 20:57:29 UTC] PHP Warning:  Undefined array key "idcita" in /home/cstintaypuncocom/public_html/backend/historia/insertar.php on line 6
+[19-Jan-2024 15:57:29 America/Lima] PHP Warning:  Undefined variable $pa in /home/cstintaypuncocom/public_html/backend/historia/insertar.php on line 82
+[19-Jan-2024 15:57:29 America/Lima] PHP Warning:  Undefined variable $sex in /home/cstintaypuncocom/public_html/backend/historia/insertar.php on line 106
+[19-Jan-2024 15:57:29 America/Lima] PHP Warning:  Undefined variable $fec_na in /home/cstintaypuncocom/public_html/backend/historia/insertar.php on line 118
+[19-Jan-2024 15:57:29 America/Lima] PHP Warning:  Undefined variable $history in /home/cstintaypuncocom/public_html/backend/historia/insertar.php on line 130
+[19-Jan-2024 15:57:29 America/Lima] PHP Warning:  Undefined variable $anios in /home/cstintaypuncocom/public_html/backend/historia/insertar.php on line 149
+[19-Jan-2024 15:57:29 America/Lima] PHP Warning:  Undefined variable $meses in /home/cstintaypuncocom/public_html/backend/historia/insertar.php on line 149
+[19-Jan-2024 15:57:29 America/Lima] PHP Warning:  Undefined variable $dias in /home/cstintaypuncocom/public_html/backend/historia/insertar.php on line 149
+[19-Jan-2024 20:58:18 UTC] PHP Warning:  Undefined array key "idpaciente" in /home/cstintaypuncocom/public_html/backend/historia/insertar.php on line 5
+[19-Jan-2024 20:58:18 UTC] PHP Warning:  Undefined array key "idcita" in /home/cstintaypuncocom/public_html/backend/historia/insertar.php on line 6
+[19-Jan-2024 15:58:18 America/Lima] PHP Warning:  Undefined variable $pa in /home/cstintaypuncocom/public_html/backend/historia/insertar.php on line 82
+[19-Jan-2024 15:58:18 America/Lima] PHP Warning:  Undefined variable $sex in /home/cstintaypuncocom/public_html/backend/historia/insertar.php on line 106
+[19-Jan-2024 15:58:18 America/Lima] PHP Warning:  Undefined variable $fec_na in /home/cstintaypuncocom/public_html/backend/historia/insertar.php on line 118
+[19-Jan-2024 15:58:18 America/Lima] PHP Warning:  Undefined variable $history in /home/cstintaypuncocom/public_html/backend/historia/insertar.php on line 130
+[19-Jan-2024 15:58:18 America/Lima] PHP Warning:  Undefined variable $anios in /home/cstintaypuncocom/public_html/backend/historia/insertar.php on line 149
+[19-Jan-2024 15:58:18 America/Lima] PHP Warning:  Undefined variable $meses in /home/cstintaypuncocom/public_html/backend/historia/insertar.php on line 149
+[19-Jan-2024 15:58:18 America/Lima] PHP Warning:  Undefined variable $dias in /home/cstintaypuncocom/public_html/backend/historia/insertar.php on line 149
+[22-Jan-2024 21:02:06 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[04-Feb-2024 22:52:24 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[09-Feb-2024 20:58:06 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[09-Feb-2024 21:49:17 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[09-Feb-2024 22:37:46 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[09-Feb-2024 23:41:13 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3

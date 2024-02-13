@@ -1,1 +1,65 @@
 [31-Jul-2023 03:04:52 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[08-Jan-2024 14:56:52 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[12-Jan-2024 20:10:52 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[12-Jan-2024 20:11:07 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[12-Jan-2024 20:11:14 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 01:34:46 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 01:35:06 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 01:36:50 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 01:47:06 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 01:47:56 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:08:21 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:08:46 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:09:40 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:09:55 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:13:14 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:20:39 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:20:51 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:21:03 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:21:24 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:26:28 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:26:56 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:27:02 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:27:10 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:27:19 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:27:26 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:27:47 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:27:58 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:28:11 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:28:22 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:28:32 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 14:34:09 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 15:17:06 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[18-Jan-2024 15:53:12 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[19-Jan-2024 20:33:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''inactivo' at line 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:22
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(22): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/servicio/insertar.php(67): clsConexion->consultar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 22
+[20-Jan-2024 12:30:58 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[20-Jan-2024 12:31:49 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[20-Jan-2024 12:33:04 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[20-Jan-2024 12:33:10 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[20-Jan-2024 12:33:16 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[20-Jan-2024 12:35:34 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[20-Jan-2024 12:35:47 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[20-Jan-2024 12:35:55 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[20-Jan-2024 12:37:37 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[20-Jan-2024 12:37:55 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[20-Jan-2024 12:38:47 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[20-Jan-2024 12:42:27 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[20-Jan-2024 12:54:29 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[20-Jan-2024 13:06:47 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[25-Jan-2024 18:56:01 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[25-Jan-2024 18:57:40 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[29-Jan-2024 14:27:32 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[29-Jan-2024 14:27:44 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[03-Feb-2024 14:44:18 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[03-Feb-2024 17:14:16 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[03-Feb-2024 17:16:15 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[03-Feb-2024 18:04:19 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[05-Feb-2024 20:38:38 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[06-Feb-2024 20:35:23 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[06-Feb-2024 20:35:44 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55
+[06-Feb-2024 20:39:19 UTC] PHP Warning:  Undefined variable $ca in /home/cstintaypuncocom/public_html/backend/servicio/actualizar.php on line 55

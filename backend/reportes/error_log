@@ -1,0 +1,318 @@
+[22-Dec-2023 20:56:00 America/Lima] PHP Warning:  require_once(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 181
+[22-Dec-2023 20:56:00 America/Lima] PHP Fatal error:  Uncaught Error: Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php:181
+Stack trace:
+#0 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 181
+[24-Dec-2023 07:35:19 America/Lima] PHP Warning:  require_once(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 181
+[24-Dec-2023 07:35:19 America/Lima] PHP Fatal error:  Uncaught Error: Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php:181
+Stack trace:
+#0 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 181
+[25-Dec-2023 21:48:28 UTC] PHP Fatal error:  Uncaught Dompdf\Exception: file_get_contents(): Passing null to parameter #2 ($use_include_path) of type bool is deprecated 8192 in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php:507
+Stack trace:
+#0 [internal function]: Dompdf\Helpers::record_warnings()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php(839): file_get_contents()
+#2 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Css/Stylesheet.php(367): Dompdf\Helpers::getFileContent()
+#3 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(572): Dompdf\Css\Stylesheet->load_css_file()
+#4 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(724): Dompdf\Dompdf->processHtml()
+#5 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(174): Dompdf\Dompdf->render()
+#6 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php on line 507
+[25-Dec-2023 21:48:30 UTC] PHP Fatal error:  Uncaught Dompdf\Exception: file_get_contents(): Passing null to parameter #2 ($use_include_path) of type bool is deprecated 8192 in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php:507
+Stack trace:
+#0 [internal function]: Dompdf\Helpers::record_warnings()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php(839): file_get_contents()
+#2 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Css/Stylesheet.php(367): Dompdf\Helpers::getFileContent()
+#3 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(572): Dompdf\Css\Stylesheet->load_css_file()
+#4 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(724): Dompdf\Dompdf->processHtml()
+#5 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(174): Dompdf\Dompdf->render()
+#6 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php on line 507
+[25-Dec-2023 21:48:32 UTC] PHP Fatal error:  Uncaught Dompdf\Exception: file_get_contents(): Passing null to parameter #2 ($use_include_path) of type bool is deprecated 8192 in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php:507
+Stack trace:
+#0 [internal function]: Dompdf\Helpers::record_warnings()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php(839): file_get_contents()
+#2 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Css/Stylesheet.php(367): Dompdf\Helpers::getFileContent()
+#3 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(572): Dompdf\Css\Stylesheet->load_css_file()
+#4 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(724): Dompdf\Dompdf->processHtml()
+#5 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(174): Dompdf\Dompdf->render()
+#6 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php on line 507
+[25-Dec-2023 21:49:36 UTC] PHP Fatal error:  Uncaught Dompdf\Exception: file_get_contents(): Passing null to parameter #2 ($use_include_path) of type bool is deprecated 8192 in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php:507
+Stack trace:
+#0 [internal function]: Dompdf\Helpers::record_warnings()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php(839): file_get_contents()
+#2 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Css/Stylesheet.php(367): Dompdf\Helpers::getFileContent()
+#3 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(572): Dompdf\Css\Stylesheet->load_css_file()
+#4 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(724): Dompdf\Dompdf->processHtml()
+#5 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(174): Dompdf\Dompdf->render()
+#6 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php on line 507
+[25-Dec-2023 21:49:38 UTC] PHP Fatal error:  Uncaught Dompdf\Exception: file_get_contents(): Passing null to parameter #2 ($use_include_path) of type bool is deprecated 8192 in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php:507
+Stack trace:
+#0 [internal function]: Dompdf\Helpers::record_warnings()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php(839): file_get_contents()
+#2 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Css/Stylesheet.php(367): Dompdf\Helpers::getFileContent()
+#3 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(572): Dompdf\Css\Stylesheet->load_css_file()
+#4 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(724): Dompdf\Dompdf->processHtml()
+#5 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(174): Dompdf\Dompdf->render()
+#6 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php on line 507
+[30-Dec-2023 11:27:09 America/Lima] PHP Warning:  require_once(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 181
+[30-Dec-2023 11:27:09 America/Lima] PHP Fatal error:  Uncaught Error: Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php:181
+Stack trace:
+#0 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 181
+[12-Jan-2024 19:09:46 UTC] PHP Fatal error:  Uncaught Dompdf\Exception: file_get_contents(): Passing null to parameter #2 ($use_include_path) of type bool is deprecated 8192 in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php:507
+Stack trace:
+#0 [internal function]: Dompdf\Helpers::record_warnings()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php(839): file_get_contents()
+#2 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Css/Stylesheet.php(367): Dompdf\Helpers::getFileContent()
+#3 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(572): Dompdf\Css\Stylesheet->load_css_file()
+#4 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(724): Dompdf\Dompdf->processHtml()
+#5 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(174): Dompdf\Dompdf->render()
+#6 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php on line 507
+[12-Jan-2024 19:09:50 UTC] PHP Fatal error:  Uncaught Dompdf\Exception: file_get_contents(): Passing null to parameter #2 ($use_include_path) of type bool is deprecated 8192 in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php:507
+Stack trace:
+#0 [internal function]: Dompdf\Helpers::record_warnings()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php(839): file_get_contents()
+#2 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Css/Stylesheet.php(367): Dompdf\Helpers::getFileContent()
+#3 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(572): Dompdf\Css\Stylesheet->load_css_file()
+#4 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(724): Dompdf\Dompdf->processHtml()
+#5 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(174): Dompdf\Dompdf->render()
+#6 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php on line 507
+[12-Jan-2024 19:12:29 UTC] PHP Fatal error:  Uncaught Dompdf\Exception: file_get_contents(): Passing null to parameter #2 ($use_include_path) of type bool is deprecated 8192 in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php:507
+Stack trace:
+#0 [internal function]: Dompdf\Helpers::record_warnings()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php(839): file_get_contents()
+#2 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Css/Stylesheet.php(367): Dompdf\Helpers::getFileContent()
+#3 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(572): Dompdf\Css\Stylesheet->load_css_file()
+#4 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(724): Dompdf\Dompdf->processHtml()
+#5 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(174): Dompdf\Dompdf->render()
+#6 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php on line 507
+[12-Jan-2024 19:17:44 UTC] PHP Fatal error:  Uncaught Dompdf\Exception: file_get_contents(): Passing null to parameter #2 ($use_include_path) of type bool is deprecated 8192 in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php:507
+Stack trace:
+#0 [internal function]: Dompdf\Helpers::record_warnings()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php(839): file_get_contents()
+#2 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Css/Stylesheet.php(367): Dompdf\Helpers::getFileContent()
+#3 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(572): Dompdf\Css\Stylesheet->load_css_file()
+#4 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(724): Dompdf\Dompdf->processHtml()
+#5 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(174): Dompdf\Dompdf->render()
+#6 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php on line 507
+[12-Jan-2024 14:48:02 America/Lima] PHP Warning:  require_once(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 181
+[12-Jan-2024 14:48:02 America/Lima] PHP Fatal error:  Uncaught Error: Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php:181
+Stack trace:
+#0 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 181
+[12-Jan-2024 20:09:34 UTC] PHP Fatal error:  Uncaught Dompdf\Exception: file_get_contents(): Passing null to parameter #2 ($use_include_path) of type bool is deprecated 8192 in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php:507
+Stack trace:
+#0 [internal function]: Dompdf\Helpers::record_warnings()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php(839): file_get_contents()
+#2 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Css/Stylesheet.php(367): Dompdf\Helpers::getFileContent()
+#3 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(572): Dompdf\Css\Stylesheet->load_css_file()
+#4 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(724): Dompdf\Dompdf->processHtml()
+#5 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(174): Dompdf\Dompdf->render()
+#6 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php on line 507
+[12-Jan-2024 15:09:45 America/Lima] PHP Warning:  require_once(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 181
+[12-Jan-2024 15:09:45 America/Lima] PHP Fatal error:  Uncaught Error: Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php:181
+Stack trace:
+#0 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 181
+[12-Jan-2024 20:10:12 UTC] PHP Fatal error:  Uncaught Dompdf\Exception: file_get_contents(): Passing null to parameter #2 ($use_include_path) of type bool is deprecated 8192 in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php:507
+Stack trace:
+#0 [internal function]: Dompdf\Helpers::record_warnings()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php(839): file_get_contents()
+#2 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Css/Stylesheet.php(367): Dompdf\Helpers::getFileContent()
+#3 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(572): Dompdf\Css\Stylesheet->load_css_file()
+#4 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(724): Dompdf\Dompdf->processHtml()
+#5 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(174): Dompdf\Dompdf->render()
+#6 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php on line 507
+[12-Jan-2024 20:12:18 UTC] PHP Warning:  require_once(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/cstintaypuncocom/public_html/backend/reportes/rptrango_venta.php on line 122
+[12-Jan-2024 20:12:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cstintaypuncocom/public_html/backend/reportes/rptrango_venta.php:122
+Stack trace:
+#0 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/rptrango_venta.php on line 122
+[13-Jan-2024 15:01:04 UTC] PHP Fatal error:  Uncaught Dompdf\Exception: file_get_contents(): Passing null to parameter #2 ($use_include_path) of type bool is deprecated 8192 in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php:507
+Stack trace:
+#0 [internal function]: Dompdf\Helpers::record_warnings()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php(839): file_get_contents()
+#2 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Css/Stylesheet.php(367): Dompdf\Helpers::getFileContent()
+#3 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(572): Dompdf\Css\Stylesheet->load_css_file()
+#4 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(724): Dompdf\Dompdf->processHtml()
+#5 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(174): Dompdf\Dompdf->render()
+#6 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php on line 507
+[13-Jan-2024 15:05:28 UTC] PHP Warning:  require_once(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/cstintaypuncocom/public_html/backend/reportes/rptrango_venta.php on line 122
+[13-Jan-2024 15:05:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cstintaypuncocom/public_html/backend/reportes/rptrango_venta.php:122
+Stack trace:
+#0 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/rptrango_venta.php on line 122
+[17-Jan-2024 14:34:15 UTC] PHP Fatal error:  Uncaught Dompdf\Exception: file_get_contents(): Passing null to parameter #2 ($use_include_path) of type bool is deprecated 8192 in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php:507
+Stack trace:
+#0 [internal function]: Dompdf\Helpers::record_warnings()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php(839): file_get_contents()
+#2 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Css/Stylesheet.php(367): Dompdf\Helpers::getFileContent()
+#3 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(572): Dompdf\Css\Stylesheet->load_css_file()
+#4 /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Dompdf.php(724): Dompdf\Dompdf->processHtml()
+#5 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(174): Dompdf\Dompdf->render()
+#6 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf-0.8.3/src/Helpers.php on line 507
+[17-Jan-2024 14:39:10 UTC] PHP Warning:  require_once(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php on line 170
+[17-Jan-2024 14:39:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php on line 170
+[17-Jan-2024 14:48:23 UTC] PHP Warning:  require_once(/home/cstintaypuncocom/public_html/backend/reportes/dompdf/lib/html5lib/Parser.php): Failed to open stream: No such file or directory in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/autoload.inc.php on line 11
+[17-Jan-2024 14:48:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/cstintaypuncocom/public_html/backend/reportes/dompdf/lib/html5lib/Parser.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/autoload.inc.php:11
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(170): require_once()
+#1 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/autoload.inc.php on line 11
+[17-Jan-2024 14:50:12 UTC] PHP Warning:  require_once(/home/cstintaypuncocom/public_html/backend/reportes/dompdf/lib/php-font-lib/src/FontLib/Autoloader.php): Failed to open stream: No such file or directory in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/autoload.inc.php on line 28
+[17-Jan-2024 14:50:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/cstintaypuncocom/public_html/backend/reportes/dompdf/lib/php-font-lib/src/FontLib/Autoloader.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/autoload.inc.php:28
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(170): require_once()
+#1 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/autoload.inc.php on line 28
+[17-Jan-2024 14:53:05 UTC] PHP Fatal error:  Uncaught Error: Class "Dompdf\Cpdf" not found in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/src/Adapter/CPDF.php:177
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/reportes/dompdf/src/CanvasFactory.php(56): Dompdf\Adapter\CPDF->__construct()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/dompdf/src/Dompdf.php(274): Dompdf\CanvasFactory::get_instance()
+#2 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(172): Dompdf\Dompdf->__construct()
+#3 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/src/Adapter/CPDF.php on line 177
+[17-Jan-2024 14:57:55 UTC] PHP Fatal error:  Uncaught Error: Class "Dompdf\Dompdf\Cpdf" not found in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/src/Adapter/CPDF.php:177
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/reportes/dompdf/src/CanvasFactory.php(56): Dompdf\Adapter\CPDF->__construct()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/dompdf/src/Dompdf.php(274): Dompdf\CanvasFactory::get_instance()
+#2 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(172): Dompdf\Dompdf->__construct()
+#3 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/src/Adapter/CPDF.php on line 177
+[17-Jan-2024 15:01:40 UTC] PHP Fatal error:  Uncaught Error: Class "Dompdf\Dompdf" not found in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php:172
+Stack trace:
+#0 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php on line 172
+[17-Jan-2024 15:04:59 UTC] PHP Warning:  require(/home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/platform_check.php): Failed to open stream: No such file or directory in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_real.php on line 25
+[17-Jan-2024 15:04:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/platform_check.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_real.php:25
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/reportes/dompdf/autoload.inc.php(25): ComposerAutoloaderInit0eac732b82d045482f69b4660f44e5ec::getLoader()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(170): require_once('/home/cstintayp...')
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_real.php on line 25
+[17-Jan-2024 15:06:17 UTC] PHP Warning:  require(/home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/ClassLoader.php): Failed to open stream: No such file or directory in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_real.php on line 12
+[17-Jan-2024 15:06:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/ClassLoader.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_real.php:12
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_real.php(28): ComposerAutoloaderInit0eac732b82d045482f69b4660f44e5ec::loadClassLoader()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/dompdf/autoload.inc.php(25): ComposerAutoloaderInit0eac732b82d045482f69b4660f44e5ec::getLoader()
+#2 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(170): require_once('/home/cstintayp...')
+#3 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_real.php on line 12
+[17-Jan-2024 15:07:22 UTC] PHP Warning:  require(/home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_static.php): Failed to open stream: No such file or directory in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_real.php on line 31
+[17-Jan-2024 15:07:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_static.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_real.php:31
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/reportes/dompdf/autoload.inc.php(25): ComposerAutoloaderInit0eac732b82d045482f69b4660f44e5ec::getLoader()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(170): require_once('/home/cstintayp...')
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_real.php on line 31
+[17-Jan-2024 15:08:30 UTC] PHP Warning:  require(/home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_real.php on line 55
+[17-Jan-2024 15:08:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_real.php:55
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_real.php(38): composerRequire0eac732b82d045482f69b4660f44e5ec()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/dompdf/autoload.inc.php(25): ComposerAutoloaderInit0eac732b82d045482f69b4660f44e5ec::getLoader()
+#2 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(170): require_once('/home/cstintayp...')
+#3 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_real.php on line 55
+[17-Jan-2024 15:09:27 UTC] PHP Warning:  require(/home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_real.php on line 55
+[17-Jan-2024 15:09:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_real.php:55
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_real.php(38): composerRequire0eac732b82d045482f69b4660f44e5ec()
+#1 /home/cstintaypuncocom/public_html/backend/reportes/dompdf/autoload.inc.php(25): ComposerAutoloaderInit0eac732b82d045482f69b4660f44e5ec::getLoader()
+#2 /home/cstintaypuncocom/public_html/backend/reportes/recibo.php(170): require_once('/home/cstintayp...')
+#3 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/dompdf/composer/autoload_real.php on line 55
+[17-Jan-2024 15:11:24 UTC] PHP Fatal error:  Uncaught Error: Class "Dompdf\Dompdf" not found in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php:172
+Stack trace:
+#0 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php on line 172
+[17-Jan-2024 15:14:50 UTC] PHP Fatal error:  Uncaught Error: Class "Dompdf\Dompdf" not found in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php:172
+Stack trace:
+#0 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php on line 172
+[18-Jan-2024 04:05:21 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[18-Jan-2024 11:57:06 America/Lima] PHP Warning:  Undefined variable $usu_res in /home/cstintaypuncocom/public_html/backend/reportes/rpt_laboratorio.php on line 127
+[18-Jan-2024 11:57:07 America/Lima] PHP Warning:  Undefined variable $usu_res in /home/cstintaypuncocom/public_html/backend/reportes/rpt_laboratorio.php on line 127
+[19-Jan-2024 17:33:43 America/Lima] PHP Warning:  Undefined variable $idhistoria in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 36
+[19-Jan-2024 17:33:43 America/Lima] PHP Warning:  Undefined variable $fec in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 92
+[19-Jan-2024 17:33:43 America/Lima] PHP Warning:  Undefined variable $his in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 94
+[19-Jan-2024 17:33:43 America/Lima] PHP Warning:  Undefined variable $pa in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 99
+[19-Jan-2024 17:33:43 America/Lima] PHP Warning:  Undefined variable $naci in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 102
+[19-Jan-2024 17:33:43 America/Lima] PHP Warning:  Undefined variable $sexo in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 103
+[19-Jan-2024 17:33:43 America/Lima] PHP Warning:  Undefined variable $edad in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 116
+[19-Jan-2024 17:33:43 America/Lima] PHP Warning:  Undefined variable $es in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 123
+[19-Jan-2024 17:33:43 America/Lima] PHP Warning:  Undefined variable $nombres in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 126
+[19-Jan-2024 17:33:43 America/Lima] PHP Warning:  Undefined variable $motivo in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 134
+[19-Jan-2024 17:33:43 America/Lima] PHP Warning:  Undefined variable $diag in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 145
+[19-Jan-2024 17:33:43 America/Lima] PHP Warning:  Undefined variable $ef in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 156
+[19-Jan-2024 17:33:43 America/Lima] PHP Warning:  Undefined variable $trata in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 166
+[19-Jan-2024 17:33:43 America/Lima] PHP Fatal error:  Uncaught Error: Class "Dompdf" not found in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php:183
+Stack trace:
+#0 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/rpt_historia.php on line 183
+[19-Jan-2024 22:43:37 UTC] PHP Fatal error:  Uncaught Error: Class "DOMPDF" not found in /home/cstintaypuncocom/public_html/backend/reportes/rptrango_venta.php:130
+Stack trace:
+#0 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/rptrango_venta.php on line 130
+[19-Jan-2024 22:45:44 UTC] PHP Fatal error:  Uncaught Error: Class "DOMPDF" not found in /home/cstintaypuncocom/public_html/backend/reportes/rptrango_venta.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/rptrango_venta.php on line 137
+[19-Jan-2024 22:48:48 UTC] PHP Fatal error:  Uncaught Error: Class "DOMPDF" not found in /home/cstintaypuncocom/public_html/backend/reportes/rptrango_venta.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/rptrango_venta.php on line 137
+[19-Jan-2024 22:51:53 UTC] PHP Fatal error:  Uncaught Error: Class "DOMPDF" not found in /home/cstintaypuncocom/public_html/backend/reportes/rptrango_venta.php:139
+Stack trace:
+#0 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/rptrango_venta.php on line 139
+[20-Jan-2024 02:55:47 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[20-Jan-2024 02:56:03 UTC] PHP Warning:  Undefined variable $logo in /home/cstintaypuncocom/public_html/backend/reportes/ticket_cita.php on line 100
+[20-Jan-2024 02:56:03 UTC] PHP Warning:  Undefined variable $rz in /home/cstintaypuncocom/public_html/backend/reportes/ticket_cita.php on line 103
+[20-Jan-2024 02:56:03 UTC] PHP Warning:  Undefined variable $ruc in /home/cstintaypuncocom/public_html/backend/reportes/ticket_cita.php on line 106
+[20-Jan-2024 02:56:03 UTC] PHP Warning:  Undefined variable $dir in /home/cstintaypuncocom/public_html/backend/reportes/ticket_cita.php on line 109
+[20-Jan-2024 02:56:03 UTC] PHP Warning:  Undefined variable $tel in /home/cstintaypuncocom/public_html/backend/reportes/ticket_cita.php on line 112
+[20-Jan-2024 02:56:03 UTC] PHP Warning:  Undefined variable $fec in /home/cstintaypuncocom/public_html/backend/reportes/ticket_cita.php on line 128
+[20-Jan-2024 02:56:03 UTC] PHP Warning:  Undefined variable $hora in /home/cstintaypuncocom/public_html/backend/reportes/ticket_cita.php on line 132
+[20-Jan-2024 02:56:03 UTC] PHP Warning:  Undefined variable $es in /home/cstintaypuncocom/public_html/backend/reportes/ticket_cita.php on line 136
+[20-Jan-2024 02:56:03 UTC] PHP Warning:  Undefined variable $no in /home/cstintaypuncocom/public_html/backend/reportes/ticket_cita.php on line 140
+[20-Jan-2024 02:56:03 UTC] PHP Warning:  Undefined variable $history in /home/cstintaypuncocom/public_html/backend/reportes/ticket_cita.php on line 150
+[20-Jan-2024 02:56:03 UTC] PHP Warning:  Undefined variable $pa in /home/cstintaypuncocom/public_html/backend/reportes/ticket_cita.php on line 154
+[20-Jan-2024 02:59:16 UTC] PHP Warning:  Undefined variable $idventa in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php on line 31
+[20-Jan-2024 02:59:16 UTC] PHP Warning:  Undefined variable $num_docu in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php on line 78
+[20-Jan-2024 02:59:16 UTC] PHP Warning:  Undefined variable $fecha in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php on line 84
+[20-Jan-2024 02:59:16 UTC] PHP Warning:  Undefined variable $paciente in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php on line 88
+[20-Jan-2024 02:59:16 UTC] PHP Warning:  Undefined variable $idventa in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php on line 109
+[20-Jan-2024 02:59:16 UTC] PHP Warning:  Undefined variable $subtotal in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php on line 128
+[20-Jan-2024 02:59:16 UTC] PHP Warning:  Undefined variable $igv in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php on line 133
+[20-Jan-2024 02:59:16 UTC] PHP Warning:  Undefined variable $total in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php on line 138
+[20-Jan-2024 02:59:16 UTC] PHP Warning:  Undefined variable $total in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php on line 144
+[20-Jan-2024 02:59:16 UTC] PHP Warning:  Undefined variable $observacion in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php on line 150
+[20-Jan-2024 02:59:16 UTC] PHP Warning:  Undefined variable $usuario in /home/cstintaypuncocom/public_html/backend/reportes/recibo.php on line 156
+[20-Jan-2024 19:34:02 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[25-Jan-2024 19:19:42 UTC] PHP Fatal error:  Uncaught Error: Class "DOMPDF" not found in /home/cstintaypuncocom/public_html/backend/reportes/rptrango_venta.php:142
+Stack trace:
+#0 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/reportes/rptrango_venta.php on line 142
+[29-Jan-2024 09:32:10 America/Lima] PHP Warning:  Undefined array key 1 in /home/cstintaypuncocom/public_html/backend/reportes/rpt_laboratorio.php on line 119
+[29-Jan-2024 09:32:10 America/Lima] PHP Warning:  Undefined array key 2 in /home/cstintaypuncocom/public_html/backend/reportes/rpt_laboratorio.php on line 120
+[29-Jan-2024 09:32:25 America/Lima] PHP Warning:  Undefined array key 1 in /home/cstintaypuncocom/public_html/backend/reportes/rpt_laboratorio.php on line 119
+[29-Jan-2024 09:32:25 America/Lima] PHP Warning:  Undefined array key 2 in /home/cstintaypuncocom/public_html/backend/reportes/rpt_laboratorio.php on line 120
+[07-Feb-2024 00:43:41 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[08-Feb-2024 02:13:06 UTC] PHP Warning:  Undefined array key "autentificado" in /home/cstintaypuncocom/public_html/backend/seguridad.php on line 3
+[10-Feb-2024 17:33:23 America/Lima] PHP Warning:  Undefined array key 1 in /home/cstintaypuncocom/public_html/backend/reportes/rpt_laboratorio.php on line 119
+[10-Feb-2024 17:33:23 America/Lima] PHP Warning:  Undefined array key 2 in /home/cstintaypuncocom/public_html/backend/reportes/rpt_laboratorio.php on line 120

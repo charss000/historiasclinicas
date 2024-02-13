@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>SISCLINICA | LOGIN</title>
+	<title>CS TINTAY PUNCO | LOGIN</title>
 	<link rel="stylesheet" type="text/css" href="/vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="/vendor/fortawesome/font-awesome/css/all.min.css">
 	<link rel="stylesheet" href="/asset/css/AdminLTE.min.css">
@@ -34,7 +34,7 @@ filter: alpha(opacity=80);
 	<div class="login-box" >
 		<div class="login-box-body" id="colorpanel">
 			<div class="login-logo">
-      			<legend class="border-bottom"><h3>SISCLINICA</h3></legend>
+      			<legend class="border-bottom"><h3>CS TINTAY PUNCO</h3></legend>
       			<img src="/asset/img/LOGO_TINTAY.JPG" class="w-100" />
     		</div>
     		<p class="login-box-msg">Por favor ingrese su usuario y clave.</p>

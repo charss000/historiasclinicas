@@ -55,32 +55,35 @@ FROM laboratorio
 			  	<?php
              foreach((array)$resul_doc as $row){
               ?>
-							<tr>
-							<td><?php echo $row['paciente']; ?></td>
-              <td><?php echo $row['examen']; ?></td>
-              <?php $idventa=$row['idventa']; ?>
-              <td>
-              <?php
-                $result_d=$obj->consultar("SELECT idventa,estado FROM venta WHERE idventa='$idventa'");
-                foreach((array)$result_d as $ra){
-                  if ($ra['estado']=='pendiente') {
-                      echo '<span class="label label-danger">pendiente</span>';
-                  } else {
-                      echo '<span class="label label-success">pagado</span>';
-                  }
-                }
-               ?>
-             </td>
-    <td><?php
-    if ($ra['estado']=='pendiente') {
+              <tr>
+                  <td><?php echo $row['paciente']; ?></td>
+                  <td><?php echo $row['examen']; ?></td>
+                  <?php $idventa=$row['idventa']; ?>
+                  <td>
+                      <?php
+                      $result_d=$obj->consultar("SELECT idventa,estado FROM venta WHERE idventa='$idventa'");
+
+                    foreach((array)$result_d as $ra){
+                      if ($ra['estado']=='pendiente') {
+                          echo '<span class="label label-danger">pendiente</span>';
+                      } else {
+                          echo '<span class="label label-success">pagado</span>';
+                      }
+                    }
+                   ?>
+                 </td>
+                 <td><?php
+                 
+    if (isset($ra) && $ra['estado']=='pendiente') {
         echo '';
     } else {
+
       echo "<a href='ver_examenes.php?idlab=".$row['idlab']."' class='btn btn-default btn-sm btn-icon icon-left' title='historial del paciente'><i class='fa fa-eye'></i>";
     }
     ?>
     </td>
     <td><?php
-    if ($ra['estado']=='pendiente') {
+    if (isset($ra) && $ra['estado']=='pendiente') {
         echo '';
     } else {
       echo "<a href='#' class='btn btn-default' onclick='imprimir_factura(".$row['idlab'].");'><i class='glyphicon glyphicon-print'></i></a>";

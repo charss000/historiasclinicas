@@ -12,7 +12,7 @@ $obj=new clsConexion;
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>SISCLINICA | LOGIN</title>
+  <title>CS TINTAY PUNCO | LOGIN</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -27,7 +27,7 @@ $obj=new clsConexion;
   body {
      /*background: url('../../imagenes/j.jpg') fixed no-repeat; color: #bf00ff;
   position: absolute; top: 0; left: 0; width: 100%; height: 100%" */
-  background: url('plugins/img/images.jpg');
+  background: url('plugins/img/fondo.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -53,7 +53,7 @@ filter: alpha(opacity=80);
   <!-- /.login-logo --> 
   <div class="login-box-body" id="colorpanel"> 
     <div class="login-logo"> 
-      <legend><h3>SISCLINICA</h3></legend>
+      <legend><h3>CENTRO DE SALUD TINTAY PUNCO</h3></legend>
       <!-- <img src="configuracion/foto/<?php echo $logo?>" width="250" height="100" /> -->
     </div>
     <p class="login-box-msg">Por favor ingrese su usuario y clave.</p>
@@ -75,7 +75,9 @@ filter: alpha(opacity=80);
    
        <!-- <a href="../index.php">WEB INICIO</a> -->
       <br/>
-      <span>2021-2030</span>  - <span>All rights reserved.</span>
+      <span><?php
+      echo $Date = date("Y");
+      ?></span>  - <span>Todos Los Derecho Reservados.</span>
           <br/>
         <a href=""  target="_blank">Centro de Salud Tintay Punco</a>
     </div>

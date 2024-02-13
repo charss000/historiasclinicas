@@ -1,6 +1,6 @@
 <?php
 include("../central/header.php");
-$result=$obj->consultar("SELECT idpaciente,paciente,sexo,documento_pa,fec_nacimiento from paciente");
+$result=$obj->consultar("SELECT idpaciente,paciente,sexo,documento_pa,fec_nacimiento,sis from paciente");
 ?>
 <div class="content-wrapper">
   <section class="content">
@@ -24,6 +24,7 @@ $result=$obj->consultar("SELECT idpaciente,paciente,sexo,documento_pa,fec_nacimi
                   <th>N.Documento</th>
                   <th>Fec.Nacimiento</th>
                   <th>Pagar</th>
+                  <th>Afiliado Al SIS</th>
                   <th>Ver Pagos</th>
 				          <th>Editar</th>
                   <th>Eliminar</th>
@@ -37,7 +38,8 @@ $result=$obj->consultar("SELECT idpaciente,paciente,sexo,documento_pa,fec_nacimi
               <td><?php echo $row['sexo']; ?></td>
 							<td><?php echo $row['documento_pa']; ?></td>
 							<td><?php echo $row['fec_nacimiento']; ?></td>
-<td><?php echo "<a href='../venta/insertar.php?idpaciente=".$row['idpaciente']."' class='btn btn-success btn-sm'>"?><i class="fa fa-shopping-cart"></i></td>
+<td><?php echo "<a href='../venta/insertar.php?idpaciente=".$row['idpaciente']."' class='btn btn-success btn-sm'  title='Pagar por un nuevo servicio'>"?><i class="fa fa-shopping-cart"></i></td>
+<td><?php echo $row['sis']?'Sí':'No' ?></td>
 <td><?php echo "<a href='verpagos.php?idpaciente=".$row['idpaciente']."' class='btn btn-success btn-sm'>"?><i class="fa fa-money"></i></td>
 <td><?php echo "<a href='actualizar.php?idpaciente=".$row['idpaciente']."' class='btn btn-default btn-sm'>"?><i class="fa fa-pencil-square-o"></i></td>
 <td><button type="button" name="eliminar" id="<?php echo $row['idpaciente'];?>" class='btn btn-danger btn-sm btn-icon icon-left eliminar'><i class="fa fa-trash"></i></button></td>

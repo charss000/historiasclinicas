@@ -1,6 +1,6 @@
 <?php
 
-$this->layout('../plantilla/index',['titulo'=>'SISCLINICA -  Reportes'])
+$this->layout('../plantilla/index',['titulo'=>'CS TINTAY PUNCO -  Reportes'])
 ?>
 <?php $this->push('script_librerias1'); ?>
   <script src="/asset/libs/jquery-3.7.1.min.js"></script> 

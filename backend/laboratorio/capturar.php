@@ -55,8 +55,8 @@ if($funcion=="registrar"){
           if ($num_docu==$num_docu_i) {
              echo "El comprobante ya se encuentra registrado, favor volver a intentarlo.";
           }else {
-            $sql="INSERT INTO `laboratorio`(`fecha`, `idusuario`, `idpaciente`, `edad`,`examen`, `responsable`, `f_muestra`, `f_entrega`, `idventa`)
-                                  VALUES ('$fecha','$idusuario','$idpaciente','$edad','$examen','$responsable','','','$idventa')";
+            $sql="INSERT INTO `laboratorio`(`fecha`, `idusuario`, `idpaciente`, `edad`,`examen`, `responsable`,  `idventa`)
+                                  VALUES ('$fecha','$idusuario','$idpaciente','$edad','$examen','$responsable','$idventa')";
 
             $insert_v="INSERT INTO `venta`(`idventa`, `idpaciente_v`, `fecha`, `subtotal`, `igv`, `total`, `tipo_docu`, `num_docu`, `serie`,`observacion`,`usuario`,`estado`)
                                    VALUES ('$idventa','$idpaciente','$fecha','$precio','0','$precio','RECIBO','$num_docu','001','','$usu','pendiente')";

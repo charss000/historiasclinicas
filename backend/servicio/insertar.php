@@ -64,7 +64,7 @@ include("../central/header.php");
                        </div>
                        <select name="idusu" class='form-control'>
                           <?php
-                                              $result=$obj->consultar("SELECT * from usuario where tipo<>'laboratorio'");
+                                              $result=$obj->consultar("SELECT * from usuario where tipo<>'laboratorio' AND estado = 'activo'");
                                               foreach((array)$result as $row){
                                                 echo '<option value="'.$row['idusu'].'" selected>'.$row['nombres'].'</option>';
                                             }

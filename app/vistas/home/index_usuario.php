@@ -1,5 +1,5 @@
 <?php
-$this->layout('../plantilla/index',['titulo'=>'SISCLINICA'])
+$this->layout('../plantilla/index',['titulo'=>'CS TINTAY PUNCO'])
 ?>
 <?php $this->start('contenido'); ?>
 <div class="container-fluid">

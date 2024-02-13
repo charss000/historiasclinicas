@@ -67,8 +67,8 @@ if($funcion=="registrar"){
                             			$hour=$row["hora"];
                             	}
                      if (strtotime($hour)!=strtotime($hora)) {
-                      $sql="INSERT INTO `cita`(`idpaciente`, `idusuario`, `fecha`,`hora`, `cupo`, `fec_ho_impresion`, `estado`, `idventa`)
-                      VALUES ('$idpaciente','$idmedico','$fecha','$hora','','$hoy','enespera','$idventa')";
+                      $sql="INSERT INTO `cita`(`idpaciente`, `idusuario`, `fecha`,`hora`, `fec_ho_impresion`, `estado`, `idventa`)
+                      VALUES ('$idpaciente','$idmedico','$fecha','$hora','$hoy','enespera','$idventa')";
                      //insertar venta
                       $insert_v="INSERT INTO `venta`(`idventa`, `idpaciente_v`, `fecha`, `subtotal`, `igv`, `total`, `tipo_docu`, `num_docu`, `serie`,`observacion`,`usuario`,`estado`)
                                             VALUES ('$idventa','$idpaciente','$fecha','0','0','$precio','RECIBO','$num_docu','001','','$usu','pendiente')";

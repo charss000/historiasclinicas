@@ -8,6 +8,7 @@ $data=$obj->consultar("SELECT * from paciente WHERE idpaciente='".$obj->real_esc
                 $es= $row['estado_civil'];
                 $dir= $row['direccion_pa'];
                 $email= $row['email'];
+                $sis= $row['sis'];
                 $apo= $row['apoderado'];
                 $sexo= $row['sexo'];
                 $nd= $row['documento_pa'];
@@ -112,8 +113,19 @@ $data=$obj->consultar("SELECT * from paciente WHERE idpaciente='".$obj->real_esc
                     <div class="input-group-addon">
                     <i class="fa fa-phone"></i>
                   </div>
-                  <input type="text" class="form-control" name="tel" placeholder="Numero de telefono o celular"  value="<?php echo "$tel"; ?>">
+                  <input type="text" class="form-control" name="tel" placeholder="Numero de telefono o celular"  value="<?php echo "$tel"; ?>" maxlength="15" id="tel">
                    </div>
+                </div>
+                
+                <div class="form-group">
+                      
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                            <input type="checkbox" class="form-check" name="sis" placeholder="Numero de telefono o celular" <?php echo $sis?'checked':'' ?> >
+                        </div>
+                        <label>Afiliado Al SIS:</label>
+                    </div>
+                    <a href="http://app.sis.gob.pe/SisConsultaEnLinea/Consulta/frmConsultaEnLinea.aspx" target="_new">Verificar si está Afiliado</a>
                 </div>
             </div>
           <!-- /.row -->
@@ -130,6 +142,19 @@ $data=$obj->consultar("SELECT * from paciente WHERE idpaciente='".$obj->real_esc
     </form>
       </div>
     </section>
+    <script>
+        var input=  document.getElementById('num_docu');
+input.addEventListener('input',function(){
+  if (this.value.length >8) 
+     this.value = this.value.slice(0,8); 
+})
+
+var input2=  document.getElementById('tel');
+input2.addEventListener('input',function(){
+  if (this.value.length >15) 
+     this.value = this.value.slice(0,15); 
+})
+    </script>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->

@@ -92,7 +92,7 @@ $resultc=$obj->consultar("SELECT * FROM configuracion");
                           <div class="input-group-addon">
                           <i class="fa fa-edit"></i>
                         </div>
-                        <input type="text" class="form-control" name="num_docu" placeholder="ejemplo:12345678" required maxlength="15">
+                        <input type="text" class="form-control" name="num_docu" placeholder="ejemplo:12345678" required maxlength="15" id="num_docu">
                          </div>
                       </div>
 
@@ -112,10 +112,19 @@ $resultc=$obj->consultar("SELECT * FROM configuracion");
                         <div class="input-group-addon">
                         <i class="fa fa-phone"></i>
                       </div>
-                      <input type="text" class="form-control" name="tel" placeholder="Numero de telefono o celular" >
+                      <input type="text" class="form-control" name="tel" placeholder="Numero de telefono o celular" id="tel" maxlength="15">
                        </div>
                     </div>
-
+                    <div class="form-group">
+                      
+                       <div class="input-group">
+                        <div class="input-group-addon">
+                            <input type="checkbox" class="form-check" name="sis" placeholder="Numero de telefono o celular" >
+                        </div>
+                        <label>Afiliado Al SIS:</label>
+                       </div>
+                       <a href="http://app.sis.gob.pe/SisConsultaEnLinea/Consulta/frmConsultaEnLinea.aspx" target="_new">Verificar si está Afiliado</a>
+                    </div>
 
                 </div>
                 <!-- /.row -->
@@ -130,6 +139,19 @@ $resultc=$obj->consultar("SELECT * FROM configuracion");
       </form>
       </div>
     </section>
+    <script>
+        var input=  document.getElementById('num_docu');
+input.addEventListener('input',function(){
+  if (this.value.length >8) 
+     this.value = this.value.slice(0,8); 
+})
+
+var input2=  document.getElementById('tel');
+input2.addEventListener('input',function(){
+  if (this.value.length >15) 
+     this.value = this.value.slice(0,15); 
+})
+    </script>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->

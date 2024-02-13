@@ -276,3 +276,19 @@ ON historia.idusuario = usuario.idusu
   </div>
   <!-- /.content-wrapper -->
   <?php include("../central/footer.php"); ?>
+  
+  <script>
+$(document).ready(function () {
+	       $("#talla,#peso").blur(function (e) {
+        // $("#calcular").click(function (e) {
+            var peso = $("#peso").val();
+            var talla = $("#talla").val();
+            if(peso!="" && talla!=""){
+              var imc = (peso/(Math.pow(talla,2))).toFixed(1);
+               $("#imc").val(imc).css({"fontWeight":"bold","color":"red"});
+            }else {
+                  alert('ingrese la talla y el peso');
+            }
+        });
+    });
+</script>

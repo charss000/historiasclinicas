@@ -26,13 +26,14 @@ $apo=trim($obj->real_escape_string(strip_tags($_POST['apo'],ENT_QUOTES)));
 $sexo=trim($obj->real_escape_string(strip_tags($_POST['sexo'],ENT_QUOTES)));
 $mail=trim($obj->real_escape_string(strip_tags($_POST['mail'],ENT_QUOTES)));
 $tel=trim($obj->real_escape_string(strip_tags($_POST['tel'],ENT_QUOTES)));
+$sis=isset($_POST['sis'])?1:0;
 $dir=trim($obj->real_escape_string(strip_tags($_POST['dir'],ENT_QUOTES)));
 $nd=trim($obj->real_escape_string(strip_tags($_POST['num_docu'],ENT_QUOTES)));
 $fecha=$_POST['fecha'];
 $ec=$_POST['ec'];
 
 $sql="UPDATE `paciente` SET `paciente`='$no',`sexo`='$sexo',`fec_nacimiento`='$fecha',`documento_pa`='$nd',`estado_civil`='$ec',
-`direccion_pa`='$dir',`telefono`='$tel',`email`='$mail',`apoderado`='$apo' WHERE idpaciente=$cod";
+`direccion_pa`='$dir',`telefono`='$tel',`email`='$mail',`apoderado`='$apo', `sis`='$sis'  WHERE idpaciente=$cod";
   $res=$obj->ejecutar($sql);
   if ($res) {
       echo"<script>
@@ -54,13 +55,14 @@ if($funcion=="registrar"){
   $sexo=trim($obj->real_escape_string(strip_tags($_POST['sexo'],ENT_QUOTES)));
   $mail=trim($obj->real_escape_string(strip_tags($_POST['mail'],ENT_QUOTES)));
   $tel=trim($obj->real_escape_string(strip_tags($_POST['tel'],ENT_QUOTES)));
+  $sis=isset($_POST['sis'])?1:0;
   $dir=trim($obj->real_escape_string(strip_tags($_POST['dir'],ENT_QUOTES)));
   $nd=trim($obj->real_escape_string(strip_tags($_POST['num_docu'],ENT_QUOTES)));
   $fecha=$_POST['fecha'];
   $ec=$_POST['ec'];
 
-$sql="INSERT INTO `paciente`(`paciente`, `sexo`, `fec_nacimiento`, `documento_pa`, `estado_civil`, `direccion_pa`, `telefono`, `email`, `apoderado`, `num_historia`)
-VALUES ('$no','$sexo','$fecha','$nd','$ec','$dir','$tel','$mail','$apo','$history')";
+$sql="INSERT INTO `paciente`(`paciente`, `sexo`, `fec_nacimiento`, `documento_pa`, `estado_civil`, `direccion_pa`, `telefono`, `email`, `apoderado`, `num_historia`, `sis`)
+VALUES ('$no','$sexo','$fecha','$nd','$ec','$dir','$tel','$mail','$apo','$history','$sis')";
   $res=$obj->ejecutar($sql);
     if ($res) {
         echo"<script>

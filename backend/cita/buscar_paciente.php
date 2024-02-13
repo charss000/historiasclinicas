@@ -8,6 +8,7 @@ $return_arr = array();
 /* Si la conexi�n a la base de datos , ejecuta instrucci�n SQL. */
 	$data=$obj->consultar("SELECT * FROM paciente WHERE paciente like '%" .($_GET['term']) . "%' LIMIT 0 ,100");
 	/* Recuperar y almacenar en conjunto los resultados de la consulta.*/
+
 	foreach($data as $row) {
 		$idpaciente=$row['idpaciente'];
 		$row_array['value'] =$row['paciente'].'|'.$row['documento_pa'];

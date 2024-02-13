@@ -275,7 +275,7 @@ $resultc=$obj->consultar("SELECT * FROM configuracion");
 <?php include("../central/footer.php"); ?>
 <script>
 $(document).ready(function () {
-	       $("#talla").blur(function (e) {
+	       $("#peso").blur(function (e) {
         // $("#calcular").click(function (e) {
             var peso = $("#peso").val();
             var talla = $("#talla").val();

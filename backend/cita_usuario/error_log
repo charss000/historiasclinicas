@@ -1,0 +1,21 @@
+[12-Jan-2024 16:20:33 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `cstintaypuncocom_db`.`cita`.`cupo` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:30
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(30): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/cita_usuario/capturar.php(79): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 30
+[17-Jan-2024 17:05:41 UTC] PHP Warning:  Undefined array key "idusu" in /home/cstintaypuncocom/public_html/backend/cita_usuario/cita.php on line 3
+[17-Jan-2024 17:05:41 UTC] PHP Warning:  Undefined array key "idpa" in /home/cstintaypuncocom/public_html/backend/cita_usuario/cita.php on line 4
+[17-Jan-2024 12:05:41 America/Lima] PHP Warning:  Undefined variable $no in /home/cstintaypuncocom/public_html/backend/cita_usuario/cita.php on line 54
+[17-Jan-2024 12:05:41 America/Lima] PHP Warning:  Undefined variable $es in /home/cstintaypuncocom/public_html/backend/cita_usuario/cita.php on line 54
+[17-Jan-2024 12:05:41 America/Lima] PHP Warning:  Undefined variable $paciente_i in /home/cstintaypuncocom/public_html/backend/cita_usuario/cita.php on line 75
+[17-Jan-2024 12:05:41 America/Lima] PHP Warning:  Undefined variable $istoria in /home/cstintaypuncocom/public_html/backend/cita_usuario/cita.php on line 117
+[17-Jan-2024 17:07:00 UTC] PHP Warning:  Undefined array key "idpa" in /home/cstintaypuncocom/public_html/backend/cita_usuario/cita.php on line 4
+[17-Jan-2024 12:07:00 America/Lima] PHP Warning:  Undefined variable $paciente_i in /home/cstintaypuncocom/public_html/backend/cita_usuario/cita.php on line 75
+[17-Jan-2024 12:07:00 America/Lima] PHP Warning:  Undefined variable $istoria in /home/cstintaypuncocom/public_html/backend/cita_usuario/cita.php on line 117
+[17-Jan-2024 12:08:24 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `cstintaypuncocom_db`.`cita`.`cupo` at row 1 in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php:31
+Stack trace:
+#0 /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php(31): mysqli_query()
+#1 /home/cstintaypuncocom/public_html/backend/cita_usuario/capturar.php(79): clsConexion->ejecutar()
+#2 {main}
+  thrown in /home/cstintaypuncocom/public_html/backend/conexion/clsConexion.php on line 31
